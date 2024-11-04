@@ -1,0 +1,15 @@
+
+/* accordian section */
+
+.accord-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.accordian {
+    background-color: #D9CAB2;
+    border: 1.5px black solid;
+
+}
