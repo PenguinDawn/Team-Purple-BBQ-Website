@@ -1,1 +1,25 @@
+/* Reset Functions */
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EDE6D5;
+    font-family: "Neuton", serif;
+}
+
+h1, h2, h3 {
+    font-family: "Libre Baskerville", serif;
+}
+
+
+/* navigation bar */
+
+
+/* utility classes */
+
+.banner {
+    background-color: #BFA378;
+}
