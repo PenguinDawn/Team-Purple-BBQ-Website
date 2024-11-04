@@ -17,9 +17,17 @@ h1, h2, h3 {
 
 /* navigation bar */
 
+header {
+    background-color: #96735A;
+}
+
 
 /* utility classes */
 
 .banner {
     background-color: #BFA378;
+}
+
+footer {
+    background-color: #96735A;
 }
