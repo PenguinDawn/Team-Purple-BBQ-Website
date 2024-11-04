@@ -11,5 +11,6 @@
 .accordian {
     background-color: #D9CAB2;
     border: 1.5px black solid;
-
+    display: flex;
+    padding-inline: 1rem;
 }
