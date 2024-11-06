@@ -1,4 +1,17 @@
-/* Reset Functions */
+/* Basic Styles */
+
+:root {
+    --primary-red: #CF6038;
+    --primary-blue: #5872A6;
+    --light-tan: #EDE6D5;
+    --dark-tan: #D9CAB2;
+    --light-brown: #BFA378;
+    --medium-brown: #B8854B;
+    --dark-brown: #96735A;
+}
+
+
+
 
 * {
     padding: 0;
@@ -6,7 +19,7 @@
 }
 
 body {
-    background-color: #EDE6D5;
+    background-color: var(--light-tan);
     font-family: "Neuton", serif;
 }
 
@@ -18,16 +31,16 @@ h1, h2, h3 {
 /* navigation bar */
 
 header {
-    background-color: #96735A;
+    background-color: var(--dark-brown);
 }
 
 
 /* utility classes */
 
 .banner {
-    background-color: #BFA378;
+    background-color: var(--medium-brown);
 }
 
 footer {
-    background-color: #96735A;
+    background-color: var(--dark-brown);
 }
