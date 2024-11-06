@@ -37,9 +37,6 @@ header {
 
 /* utility classes */
 
-.banner {
-    background-color: var(--medium-brown);
-}
 
 footer {
     background-color: var(--dark-brown);
