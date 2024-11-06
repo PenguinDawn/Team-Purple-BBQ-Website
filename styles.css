@@ -33,6 +33,33 @@ h1, h2, h3 {
 .navbar {
     background-color: var(--dark-brown);
     display: flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width: 99%;
+    align-items: center;
+    color: white;
+}
+
+#piggy {
+    width: 15%;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.right-side {
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
 
