@@ -30,8 +30,9 @@ h1, h2, h3 {
 
 /* navigation bar */
 
-header {
+.navbar {
     background-color: var(--dark-brown);
+    display: flex;
 }
 
 
