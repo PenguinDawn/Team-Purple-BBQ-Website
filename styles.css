@@ -69,9 +69,10 @@ h1, h2, h3 {
 
  /* countdown timer */
  .container {
-    color: #333;
+    color: black;
     margin: 0 auto;
     text-align: center;
+    background-color: #D9CAB2;
   }
   
   h1 {
