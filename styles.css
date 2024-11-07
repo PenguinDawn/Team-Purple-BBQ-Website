@@ -49,11 +49,11 @@ h1, h2, h3 {
 .left-side {
     display: flex;
     align-items: center;
-    gap: .6rem;
+    gap: .5rem;
 }
 
 .right-side {
-    width: 400px;
+    width: 600px;
 }
 
 .menu {
