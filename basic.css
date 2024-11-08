@@ -1,0 +1,58 @@
+:root {
+    --primary-red: #CF6038;
+    --primary-blue: #5872A6;
+    --light-tan: #EDE6D5;
+    --dark-tan: #D9CAB2;
+    --light-brown: #BFA378;
+    --medium-brown: #B8854B;
+    --dark-brown: #96735A;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--light-tan);
+    font-family: "Neuton", serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: "Libre Baskerville", serif;
+}
+
+
+.navbar {
+    background-color: var(--dark-brown);
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+    width: 99%;
+    align-items: center;
+    color: white;
+}
+
+#piggy {
+    width: 15%;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.right-side {
+    width: 600px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
