@@ -49,11 +49,11 @@ h1, h2, h3 {
 .left-side {
     display: flex;
     align-items: center;
-    gap: .6rem;
+    gap: .5rem;
 }
 
 .right-side {
-    width: 400px;
+    width: 600px;
 }
 
 .menu {
@@ -69,9 +69,10 @@ h1, h2, h3 {
 
  /* countdown timer */
  .container {
-    color: #333;
+    color: black;
     margin: 0 auto;
     text-align: center;
+    background-color: #D9CAB2;
   }
   
   h1 {
