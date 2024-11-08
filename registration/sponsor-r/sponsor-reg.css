@@ -12,5 +12,15 @@
     background-color: #D9CAB2;
     border: 1.5px black solid;
     display: flex;
-    padding-inline: 1rem;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.accordian .left {
+    display: flex;
+    gap: 1rem;;
+}
+
+.arrow {
+    width: 2rem;
 }
