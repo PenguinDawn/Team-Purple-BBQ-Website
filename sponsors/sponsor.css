@@ -54,8 +54,115 @@ h1, h2, h3 {
     justify-content: space-evenly;
 }
 
-.main {
-    max-width: 100%;
-    padding: 0;
+main {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:
+        repeat(3, minmax(0, 1frm));
+    grid-template-areas: 
+        'one one one'
+        'two two two'
+        'three three three'
+        'four five six'
+        'seven eight nine'
+        'ten eleven twelve'
+        'thirteen fourteen fifteen'
+        'sixteen seventeen eighteen'
+        'nineteen twenty twenty-one'
+        'twenty-two twenty-two twenty-two';
 }
 
+.featured-sponsor {
+    grid-area: one;
+    display: flex;
+    img {
+        width: 40%;
+    }
+}
+
+.thanks {
+    grid-area: two;
+}
+
+.button {
+    grid-area: three;
+}
+
+.et {
+    grid-area: four;
+    img {
+        width: 40%;
+    }
+}
+
+.first-bank {
+    grid-area: five;
+}
+
+.stem {
+    grid-area: six;
+}
+
+.freed {
+    grid-area: seven;
+}
+
+.fire-protection {
+    grid-area: eight;
+}
+
+.lamar {
+    grid-area: nine;
+}
+
+.arvin {
+    grid-area: ten;
+}
+
+.alliance {
+    grid-area: eleven;
+}
+
+.jones {
+    grid-area: twelve;
+}
+
+.anew {
+    grid-area: thirteen;
+}
+
+.community-bank {
+    grid-area: fourteen;
+}
+
+.new {
+    grid-area: fifteen;
+}
+
+.bramblett {
+    grid-area: sixteen;
+}
+
+.tosh-farms {
+    grid-area: seventeen;
+}
+
+.pork {
+    grid-area: eighteen;
+}
+
+.mexican {
+    grid-area: nineteen;
+}
+
+.signs {
+    grid-area: twenty;
+}
+
+.jackson-state {
+    grid-area: twenty-one;
+}
+
+.sponsor-list {
+    grid-area: twenty-two
+}
