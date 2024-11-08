@@ -54,7 +54,7 @@ h1, h2, h3 {
     justify-content: space-evenly;
 }
 
-main {
+.main {
     display: grid;
     gap: 1rem;
     grid-template-columns:
@@ -97,70 +97,121 @@ main {
 
 .first-bank {
     grid-area: five;
+    img {
+        width: 40%;
+    }
 }
 
 .stem {
     grid-area: six;
+    img {
+        width: 40%;
+    }
 }
 
 .freed {
     grid-area: seven;
+    img {
+        width: 40%;
+    }
 }
 
 .fire-protection {
     grid-area: eight;
+    img {
+        width: 40%;
+    }
 }
 
 .lamar {
     grid-area: nine;
+    img {
+        width: 40%;
+    }
 }
 
 .arvin {
     grid-area: ten;
+    img {
+        width: 40%;
+    }
 }
 
 .alliance {
     grid-area: eleven;
+    img {
+        width: 40%;
+    }
 }
 
 .jones {
     grid-area: twelve;
+    img {
+        width: 40%;
+    }
 }
 
 .anew {
     grid-area: thirteen;
+    img {
+        width: 40%;
+    }
 }
 
 .community-bank {
     grid-area: fourteen;
+    img {
+        width: 40%;
+    }
 }
 
 .new {
     grid-area: fifteen;
+    img {
+        width: 40%;
+    }
 }
 
 .bramblett {
     grid-area: sixteen;
+    img {
+        width: 40%;
+    }
 }
 
 .tosh-farms {
     grid-area: seventeen;
+    img {
+        width: 40%;
+    }
 }
 
 .pork {
     grid-area: eighteen;
+    img {
+        width: 40%;
+    }
 }
 
 .mexican {
     grid-area: nineteen;
+    img {
+        width: 40%;
+    }
 }
 
 .signs {
     grid-area: twenty;
+    img {
+        width: 40%;
+    }
 }
 
 .jackson-state {
     grid-area: twenty-one;
+    img {
+        width: 40%;
+    }
 }
 
 .sponsor-list {
