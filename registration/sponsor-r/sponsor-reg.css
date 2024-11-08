@@ -7,13 +7,21 @@
     gap: 1.5rem;
 }
 
+.holder {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .accordian {
-    background-color: #D9CAB2;
+    background-color: #C9BAA1;
     border: 1.5px black solid;
     display: flex;
     justify-content: space-between;
+    align-items: center;;
     padding: 0.5rem;
+    border-radius: 5px;
+    z-index: 10;
 }
 
 .accordian .left {
@@ -24,3 +32,14 @@
 .arrow {
     width: 2rem;
 }
+
+.bottom {
+    background-color: #D9CAB2;
+    padding-top: 2rem;
+    margin-top: -2rem;
+    z-index: 9;
+    padding-bottom: 0.2rem;
+    border-radius: 5px;
+    border: 1px rgb(146, 141, 114) solid;
+}
+
