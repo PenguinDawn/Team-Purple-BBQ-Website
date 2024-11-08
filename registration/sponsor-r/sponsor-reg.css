@@ -35,11 +35,16 @@
 
 .bottom {
     background-color: #D9CAB2;
-    padding-top: 2rem;
-    margin-top: -2rem;
     z-index: 9;
     padding-bottom: 0.2rem;
     border-radius: 5px;
     border: 1px rgb(146, 141, 114) solid;
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 2.5rem;
+    margin-top: -2rem;
 }
 
+ul li {
+    padding-bottom: 0.2rem;
+}
