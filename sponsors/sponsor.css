@@ -82,6 +82,10 @@ h1, h2, h3 {
 
 .thanks {
     grid-area: two;
+    background-color: #D9CAB2;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
