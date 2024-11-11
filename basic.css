@@ -61,5 +61,6 @@ h1, h2, h3 {
 
 .footer {
     background-color: var(--dark-brown);
-    
+    display: flex;
+    flex-direction: column;
 }
