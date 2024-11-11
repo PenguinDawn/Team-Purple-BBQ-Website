@@ -15,4 +15,41 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
+}
+
+form > div {
+    width: 60%;
+}
+
+input {
+    width: 100%;
+}
+
+.inline {
+    display: block;
+}
+
+#agree {
+    display: inline;
+    width: 5%;
+}
+
+#agreement {
+    display: inline;
+}
+
+#logo {
+    width: 50%;
+}
+
+#date, #amount {
+    width: 4rem;
+}
+
+@media screen and (min-width: 600px) {
+    .inline {
+        display: inline;
+    }
+    
 }
