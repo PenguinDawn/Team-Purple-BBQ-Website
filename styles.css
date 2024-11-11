@@ -111,10 +111,31 @@ h1, h2, h3 {
 
 
 footer {
-    background-color: var(--dark-brown);
-    display: flex;
-    flex-direction: column;
-    img {
-      width: 20%;
-    }
+  display: grid;
+  gap: 1rem;
+  grid-template-columns:
+      repeat(3, minmax(0, 1frm));
+  grid-template-areas:
+  'a b c'
+}
+
+h2 {
+  justify-items: center;
+  align-items: center;
+}
+
+.logo {
+  grid-area: a;
+  justify-items: center;
+  align-items: center;
+}
+
+.socials {
+  grid-area: b;
+  color: white;
+}
+
+.contact {
+  grid-area: c;
+  color: white;
 }
