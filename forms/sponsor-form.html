@@ -18,45 +18,69 @@
     <h1 class="reg-banner">Sponsor Form</h1>
 
     <form>
-        <label for="company-name">Company Name:</label>
+        <div>
+            <label for="company-name">Company Name:</label>
             <input id="company-name" name="company-name" type="text" required />
-        
-        <label for="phone-number">Phone Number:</label>
-        <p>(000-000-0000)</p>
-        <input id="phone-number" name="phone-number" type="phone"/>
+        </div>
 
-        <label for="email">Email Address:</label>
-        <p>example@gmail.com</p>
-        <input id="email" name="email" type="email" />
+        <div>
+            <label for="phone-number">Phone Number (000-000-0000):</label>
+            <input id="phone-number" name="phone-number" type="phone"/>
+        </div>
 
-        <label for="mailing-address-1">Mailing Address First Line:</label>
-        <p>Street Name</p>
-        <input id="mailing-address-1" name="mailing-address-1" type="text" />
+        <div>
+            <label for="email">Email Address (example@gmail.com):</label>
+            <input id="email" name="email" type="email" />
+        </div>
 
-        <label for="city">City</label>
-        <input id="city" name="city" type="text" />
+        <div>
+            <label for="mailing-address-1">Mailing Address First Line:</label>
+            <input id="mailing-address-1" name="mailing-address-1" type="text" />
+        </div>
 
-        <label for="state">State</label>
-        <input id="state" name="state" type="text" />
+        <div>
+            <label for="city">City:</label>
+            <input id="city" name="city" type="text" />
+        </div>
 
-        <label for="zip">Zip Code</label>
-        <p>00000</p>
-        <input id="zip" name="zip" type="text" />
+        <div>
+            <label for="state">State:</label>
+            <input id="state" name="state" type="text" />
+        </div>
 
-        <label for="logo">Company Logo</label>
-        <input id="logo" name="logo" type="file" />
+        <div>
+            <label for="zip">Zip Code (00000):</label>
+            <input id="zip" name="zip" type="text" />
+        </div>
 
-        <label for="date">Date</label>
-        <p id="date">10/25/24</p> 
-        <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
+        <div>
+            <label for="logo">Company Logo:</label>
+            <input id="logo" name="logo" type="file" />
+        </div>
 
-        <label for="email">Email Address</label>
-        <p>example@gmail.com</p>
-        <input id="email" name="email" type="email" />
+        <div>
+            <label for="date">Date:</label>
+            <input id="date">10/25/24</p> 
+            <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
+        </div>
 
-        <label for="email">Email Address</label>
-        <p>example@gmail.com</p>
-        <input id="email" name="email" type="email" />
+        <div>
+            <label for="email">Amount:</label>
+            <p>$500</p>
+        </div>
+
+        <div>
+            <label for="credit">Credit Card Number (0000-0000-0000-0000)</label>
+            <input id="credit" name="credit" type="text" />
+        </div>
+
+
+        <label for="agree">I have read and agreed to pay this amount</label>
+        <input id="agree" name="agree" type="checkbox" />
+
+        <label for="signature">Electronic Signature</label>
+    
+        <input id="signature" name="signature" type="text" />
 
         <button type="submit" class="button">Submit</button>
     </form>
