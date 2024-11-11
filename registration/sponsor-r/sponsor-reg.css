@@ -1,10 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
 
+
+.reg-banner {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* accordian section */
+
+.banner {
+    background-color: #BFA378;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 .accord-sec {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    width: 80%
 }
 
 .holder {
@@ -24,9 +48,9 @@
     z-index: 10;
 }
 
-.accordian .left {
+.accordian .right{
     display: flex;
-    gap: 1rem;;
+    gap: 1.5rem;;
 }
 
 .arrow {
@@ -46,5 +70,15 @@
 }
 
 ul li {
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.8rem;
+}
+
+.classier {
+    margin-bottom: -0.8rem;
+    margin-top: 0.2rem;
+}
+
+
+.hidden {
+    display: none;
 }

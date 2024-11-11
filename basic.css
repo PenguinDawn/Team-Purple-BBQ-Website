@@ -18,6 +18,7 @@ body {
     background-color: var(--light-tan);
     font-family: "Neuton", serif;
     font-size: 18px;
+    max-width: 1440px;
 }
 
 h1, h2, h3 {
@@ -32,29 +33,47 @@ h1, h2, h3 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     justify-content: space-between;
-    width: 99%;
+    width: 98%;
     align-items: center;
     color: white;
 }
 
+.navbar ul li {
+    font-size: 18px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(243, 191, 191);
+    text-decoration: underline;
+}
+
+
 #piggy {
-    width: 15%;
+    width: 4rem;
 }
 
 .left-side {
     display: flex;
     align-items: center;
     gap: .5rem;
+    width: 60%;
 }
 
 .right-side {
-    width: 600px;
+    width: 50%;
+    display: flex;
 }
 
 .menu {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 /* footer */

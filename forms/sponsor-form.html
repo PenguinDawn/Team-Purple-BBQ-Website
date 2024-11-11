@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sponsor Registration Form</title>
+    <link rel="stylesheet" href="../../../basic.css"/>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1 class="reg-banner">Sponsor Form</h1>
+
+    <form>
+        <label for="company-name">Company Name:</label>
+            <input id="company-name" name="company-name" type="text" required />
+        
+        <label for="phone-number">Phone Number:</label>
+        <p>(000-000-0000)</p>
+        <input id="phone-number" name="phone-number" type="phone"/>
+
+        <label for="email">Email Address:</label>
+        <p>example@gmail.com</p>
+        <input id="email" name="email" type="email" />
+
+        <label for="mailing-address-1">Mailing Address First Line:</label>
+        <p>Street Name</p>
+        <input id="mailing-address-1" name="mailing-address-1" type="text" />
+
+        <label for="city">City</label>
+        <input id="city" name="city" type="text" />
+
+        <label for="state">State</label>
+        <input id="state" name="state" type="text" />
+
+        <label for="zip">Zip Code</label>
+        <p>00000</p>
+        <input id="zip" name="zip" type="text" />
+
+        <label for="logo">Company Logo</label>
+        <input id="logo" name="logo" type="file" />
+
+        <label for="date">Date</label>
+        <p id="date">10/25/24</p> 
+        <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
+
+        <label for="email">Email Address</label>
+        <p>example@gmail.com</p>
+        <input id="email" name="email" type="email" />
+
+        <label for="email">Email Address</label>
+        <p>example@gmail.com</p>
+        <input id="email" name="email" type="email" />
+
+        <button type="submit" class="button">Submit</button>
+    </form>
+</body>
