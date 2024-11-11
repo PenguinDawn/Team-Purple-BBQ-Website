@@ -251,6 +251,9 @@ h2 {
 .socials {
     grid-area: b;
     color: white;
+    img {
+        width: 10%;
+    }
 }
 
 .contact {
