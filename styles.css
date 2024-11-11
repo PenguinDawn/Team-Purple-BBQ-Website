@@ -10,9 +10,6 @@
     --dark-brown: #96735A;
 }
 
-
-
-
 .main {
     max-width: 100%;
     padding: 0;
@@ -44,6 +41,19 @@
     display: block;
     font-size: 4.5rem;
   }
+
+  .information {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dates {
+    background-color: var(--dark-tan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
   
   @media all and (max-width: 768px) {
     h1 {
@@ -66,6 +76,7 @@ footer {
   background-color: var(--dark-brown);
   display: grid;
   gap: 1rem;
+  background-color: #96735A;
   grid-template-columns:
       repeat(3, minmax(0, 1frm));
   grid-template-areas:
