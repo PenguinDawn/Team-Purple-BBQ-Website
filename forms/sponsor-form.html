@@ -54,19 +54,19 @@
         </div>
 
         <div>
-            <label for="logo">Company Logo:</label>
-            <input id="logo" name="logo" type="file" />
+            <label class="inline" for="logo">Company Logo:</label>
+            <input class="inline" id="logo" name="logo" type="file" />
         </div>
 
         <div>
             <label for="date">Date:</label>
-            <input id="date">10/25/24</p> 
+            <input id="date" value="10/25/24" name="date" type="datetime"></p> 
             <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
         </div>
 
         <div>
             <label for="email">Amount:</label>
-            <p>$500</p>
+            <input id="amount" name="amount" value="$500" type="text" />
         </div>
 
         <div>
@@ -74,14 +74,17 @@
             <input id="credit" name="credit" type="text" />
         </div>
 
-
-        <label for="agree">I have read and agreed to pay this amount</label>
-        <input id="agree" name="agree" type="checkbox" />
-
-        <label for="signature">Electronic Signature</label>
+        <div>
     
-        <input id="signature" name="signature" type="text" />
+            <input class="inline" id="agree" name="agree" type="checkbox" />
+            <p id="agreement" class="inline">I have read and agreed to pay this amount</p>
+        </div>
 
+    
+        <div>
+            <label for="signature">Electronic Signature:</label>
+            <input id="signature" name="signature" type="text" />
+        </div>
         <button type="submit" class="button">Submit</button>
     </form>
 </body>
