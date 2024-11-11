@@ -42,6 +42,16 @@ h1, h2, h3 {
     font-size: 18px;
 }
 
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(243, 191, 191);
+    text-decoration: underline;
+}
+
 
 #piggy {
     width: 4rem;
@@ -56,12 +66,14 @@ h1, h2, h3 {
 
 .right-side {
     width: 50%;
+    display: flex;
 }
 
 .menu {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 /* footer */
