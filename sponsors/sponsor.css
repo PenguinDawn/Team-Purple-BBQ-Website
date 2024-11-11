@@ -56,6 +56,8 @@ h1, h2, h3 {
 
 .main {
     display: grid;
+    align-items: center;
+    justify-items: center;
     gap: 1rem;
     grid-template-columns:
         repeat(3, minmax(0, 1frm));
@@ -75,6 +77,7 @@ h1, h2, h3 {
 .featured-sponsor {
     grid-area: one;
     display: flex;
+    justify-content: space-between;
     img {
         width: 40%;
     }
@@ -222,8 +225,37 @@ h1, h2, h3 {
     grid-area: twenty-two
 }
 
-.footer {
-    img {
-        width: 40%;
-    }
+/* footer */
+
+footer {
+    display: grid;
+    gap: 1rem;
+    background-color: #96735A;
+    grid-template-columns:
+        repeat(3, minmax(0, 1frm));
+    grid-template-areas:
+    'a b c'
+}
+
+h2 {
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    grid-area: a;
+    width: 25%;
+    padding: 30px;
+}
+
+.socials {
+    grid-area: b;
+    color: white;
+}
+
+.contact {
+    grid-area: c;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
