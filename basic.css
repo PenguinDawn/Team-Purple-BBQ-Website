@@ -56,3 +56,11 @@ h1, h2, h3 {
     list-style: none;
     justify-content: space-evenly;
 }
+
+/* footer */
+
+.footer {
+    background-color: var(--dark-brown);
+    display: flex;
+    flex-direction: column;
+}
