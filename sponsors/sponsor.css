@@ -95,129 +95,135 @@ h1, h2, h3 {
 .et {
     grid-area: four;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .first-bank {
     grid-area: five;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .stem {
     grid-area: six;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .freed {
     grid-area: seven;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .fire-protection {
     grid-area: eight;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .lamar {
     grid-area: nine;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .arvin {
     grid-area: ten;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .alliance {
     grid-area: eleven;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .jones {
     grid-area: twelve;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
-.anew {
+.mexican {
     grid-area: thirteen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .community-bank {
     grid-area: fourteen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .new {
     grid-area: fifteen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .bramblett {
     grid-area: sixteen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .tosh-farms {
     grid-area: seventeen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .pork {
     grid-area: eighteen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
-.mexican {
+.anew {
     grid-area: nineteen;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .signs {
     grid-area: twenty;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .jackson-state {
     grid-area: twenty-one;
     img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 .sponsor-list {
     grid-area: twenty-two
+}
+
+.footer {
+    img {
+        width: 40%;
+    }
 }
