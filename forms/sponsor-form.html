@@ -18,14 +18,46 @@
     <h1 class="reg-banner">Sponsor Form</h1>
 
     <form>
-        <label>Company Name</label>
-        <input />
+        <label for="company-name">Company Name:</label>
+            <input id="company-name" name="company-name" type="text" required />
         
-        <label>Phone Number</label>
-        <input />
+        <label for="phone-number">Phone Number:</label>
+        <p>(000-000-0000)</p>
+        <input id="phone-number" name="phone-number" type="phone"/>
 
-        <label>Email Address</label>
-        <input />
+        <label for="email">Email Address:</label>
+        <p>example@gmail.com</p>
+        <input id="email" name="email" type="email" />
 
+        <label for="mailing-address-1">Mailing Address First Line:</label>
+        <p>Street Name</p>
+        <input id="mailing-address-1" name="mailing-address-1" type="text" />
+
+        <label for="city">City</label>
+        <input id="city" name="city" type="text" />
+
+        <label for="state">State</label>
+        <input id="state" name="state" type="text" />
+
+        <label for="zip">Zip Code</label>
+        <p>00000</p>
+        <input id="zip" name="zip" type="text" />
+
+        <label for="logo">Company Logo</label>
+        <input id="logo" name="logo" type="file" />
+
+        <label for="date">Date</label>
+        <p id="date">10/25/24</p> 
+        <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
+
+        <label for="email">Email Address</label>
+        <p>example@gmail.com</p>
+        <input id="email" name="email" type="email" />
+
+        <label for="email">Email Address</label>
+        <p>example@gmail.com</p>
+        <input id="email" name="email" type="email" />
+
+        <button type="submit" class="button">Submit</button>
     </form>
 </body>

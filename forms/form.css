@@ -1,7 +1,5 @@
 
 
-
-
 .reg-banner {
     height: 5rem;
     display: flex;
@@ -9,3 +7,6 @@
     align-items: center;
 }
 
+label {
+    display: block;
+}
