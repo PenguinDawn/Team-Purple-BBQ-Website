@@ -1,0 +1,30 @@
+:root {
+    --primary-red: #CF6038;
+    --primary-blue: #5872A6;
+    --light-tan: #EDE6D5;
+    --dark-tan: #D9CAB2;
+    --light-brown: #BFA378;
+    --medium-brown: #B8854B;
+    --dark-brown: #96735A;
+}
+
+.left {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    background-color: var(--dark-tan);
+    border-radius: 5px;
+}
+
+.card-collapsed {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light-brown);
+    border-radius: 5px;
+}
+
+.right {
+    display: flex;
+}
