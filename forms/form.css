@@ -25,6 +25,9 @@ form > div {
 input {
     width: 100%;
     padding-left: 2px;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    padding: 0.1rem;
 }
 
 .warning {
