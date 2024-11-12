@@ -66,42 +66,63 @@
             </select>
         </div>
 
-        <div class="food-shown">
-            <p class="warning">*Pulled Pork, BBQ Chicken, BBQ Ribs and Brisket are NOT allowed to be served by any vendors.</p>
+        <div id="food-vendor" class="food-shown hidden">
+            <div>
+                <p class="warning">*Pulled Pork, BBQ Chicken, BBQ Ribs and Brisket are NOT allowed to be served by any vendors.</p>
+            </div>
+
+            <div>
+                <label for="vendor-type">Vendor Booth Type</label>
+                <select id="vendor-type" name="vendor-type" required>
+                    <option value="1">Food/Beverage Tent (10'x10') $350</option>
+                    <option value="2">Food Truck/Trailer (Under 16ft) $600</option>
+                    <option value="3">Food Truck/Trailer $800</option>
+                    <option value="4">Organization ONLY Tent $150</option>
+                </select>
+            </div>
+
+            <div>
+                <p class="warning">*Menu must include prices</p>
+            </div>
+
+            <div>
+                <label for="menu">Menu Upload:</label>
+                <input id="menu" name="menu" type="file"/>
+            </div>
+
+            <div>
+                <label for="menu-writing">Menu (if you didn't upload):</label>
+                <textarea id="menu-writing" name="menu-writing"></textarea>
+                
+            </div>
+
+            <div>
+                <p class="warning">*A certificate of insurance showing general liability limits at $1 million per occurrence and $2 million aggregate is required for every vendor and must be attached to application. </p>
+            </div>
+
         </div>
 
-        <div class="food-shown">
-            <label for="vendor-type">Vendor Booth Type</label>
-            <select id="vendor-type" name="vendor-type" required>
-                <option value="1">Food/Beverage Tent (10'x10') $350</option>
-                <option value="2">Food Truck/Trailer (Under 16ft) $600</option>
-                <option value="3">Food Truck/Trailer $800</option>
-                <option value="4">Organization ONLY Tent $150</option>
-            </select>
-        </div>
+        <div class="non-food-shown">
+            <div>
+                <p class="warning">*Rates by 10x10 Booth</p>
+            </div>
+            
+            <div>
+                <p class="warning">*If you are a vendor that plans to sell/giveaway any type of food/beverage product, please fill out the food vendor application.</p>
+            </div>
 
-        <div class="food-shown">
-            <p class="warning">*Menu must include prices</p>
-        </div>
+            <div>
+                <label for="venue-writing">List of Items (or file upload listing):</label>
+                <textarea id="venue-writing" name="vanue-writing"></textarea>
+            </div>
 
-        <div class="food-shown">
-            <label for="menu">Menu Upload:</label>
-            <input id="menu" name="menu" type="file"/>
+            <div>
+                <label for="ware-upload">Ware Upload:</label>
+                <input id="ware-upload" name="ware-upload" type="file" required/>
+            </div>
         </div>
 
         <div>
-            <label for="menu-writing">Menu (if you didn't upload):</label>
-            <textarea id="menu-writing" name="menu-writing"></textarea>
-            
-        </div>
-
-        
-
-        <div class="food-shown">
-            <p class="warning">*A certificate of insurance showing general liability limits at $1 million per occurrence and $2 million aggregate is required for every vendor and must be attached to application. </p>
-        </div>
-
-        <div class="food-shown">
             <label for="insurance">Insurance Certificate:</label>
             <input id="insurance" name="insurance" type="file" required/>
         </div>

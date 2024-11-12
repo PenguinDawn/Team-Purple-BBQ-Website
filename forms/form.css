@@ -18,6 +18,18 @@ form {
     gap: 1.5rem;
 }
 
+.food-shown, .non-food-shown {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+}
+
+.food-shown > div, .non-food-shown > div{
+    width: 60%;
+}
+
 form > div {
     width: 60%;
 }
@@ -41,7 +53,7 @@ select {
 
 .warning {
     font-weight: 600;
-    padding-top: 1rem;
+
 }
 
 .check {
@@ -64,4 +76,9 @@ select {
 #credit {
     font-family: "Ariel", sans-serif;
     font-weight: 600;
+}
+
+
+.hidden {
+    display: none;
 }
