@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sponsor Registration Form</title>
+    <title>Vendor Registration Form</title>
     <link rel="stylesheet" href="../../../basic.css"/>
     <link rel="stylesheet" href="form.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,16 +15,21 @@
 </head>
 <body>
 
-    <h1 class="reg-banner">Sponsor Form</h1>
+    <h1 class="reg-banner">Vendor Form</h1>
 
     <form>
         <div>
-            <label for="company-name">Company Name:</label>
-            <input id="company-name" name="company-name" type="text" required />
+            <label for="booth-name">Booth Name:</label>
+            <input id="booth-name" name="booth-name" type="text" required />
         </div>
 
         <div>
-            <label for="phone-number">Phone Number (000-000-0000):</label>
+            <label for="contact">Booth Contact Name:</label>
+            <input id="contact" name="contact" type="text" required />
+        </div>
+
+        <div>
+            <label for="phone-number">Contact Phone Number (000-000-0000):</label>
             <input id="phone-number" name="phone-number" type="phone" required/>
         </div>
 
@@ -54,14 +59,45 @@
         </div>
 
         <div>
-            <label for="logo">Company Logo:</label>
-            <input id="logo" name="logo" type="file" />
+            <label for="vendor-wares">Vendor Wares</label>
+            <select id="vendor-wares" name="vendor-wares" required>
+                <option value="1">Food</option>
+                <option value="2">Non-Food</option>
+            </select>
+        </div>
+
+        <div class="food-shown">
+            <p class="warning">*Pulled Pork, BBQ Chicken, BBQ Ribs and Brisket are NOT allowed to be served by any vendors.</p>
         </div>
 
         <div>
-            <label for="date">Date:</label>
-            <input id="date" value="10/25/24" name="date" type="datetime"></p> 
-            <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
+            <label for="vendor-type">Vendor </label>
+            <select id="vendor-type" name="vendor-type" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        
+
+        <div class="food-shown">
+            <p class="warning">*A certificate of insurance showing general liability limits at $1 million per occurrence and $2 million aggregate is required for every vendor and must be attached to application. </p>
+        </div>
+
+        <div>
+            <label for="insurance">Insurance Certificate:</label>
+            <input id="insurance" name="insurance" type="file" required/>
+        </div>
+
+
+        <div>
+            <label for="vendor-type">Number of Booths</label>
+            <select id="vendor-type" name="vendor-type" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
         </div>
 
         <div>
@@ -72,6 +108,12 @@
         <div>
             <label for="credit">Credit Card Number (0000-0000-0000-0000)</label>
             <input id="credit" name="credit" type="text" required/>
+        </div>
+
+        <div>
+            <label for="date">Date:</label>
+            <input id="date" value="10/25/24" name="date" type="datetime"></p> 
+            <!-- document.getElementById('DateField').valueAsDate = new Date(); -->
         </div>
 
         <div>

@@ -27,6 +27,12 @@ input {
     padding-left: 2px;
 }
 
+.warning {
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+
 
 .check {
     width: 5%;
