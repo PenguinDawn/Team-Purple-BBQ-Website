@@ -121,13 +121,33 @@ button {
         display: block;
     }
 
+    .navbar {
+        height: 2rem;
+    }
+
     .hamburger {
         width: 3rem;
+        order: 1;
+    }
+
+    .menu {
+        order: 2;
+    }
+
+    .left-side {
+        width: 70%;
+    }
+
+    h3 {
+        font-size: 20px;
     }
 
     .right-side {
         display: flex;
         justify-content: flex-end;
+        width: 30%;
         padding-right: 1rem;
     }
+
+
 }
