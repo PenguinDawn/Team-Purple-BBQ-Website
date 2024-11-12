@@ -61,7 +61,40 @@
   .cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
   }
+
+  .sponsors {
+    background-color: #D9CAB2;
+    max-width: 300px;
+    padding: 30px;
+    img {
+      width: 100%;
+      border-radius: 10%;
+    }
+  }
+
+  .callin {
+    background-color: #D9CAB2;
+    max-width: 300px;
+    padding: 30px;
+    img {
+      width: 115%;
+    }
+
+  }
+
+  .vendors {
+    background-color: #D9CAB2;
+    max-width: 300px;
+    padding: 30px;
+    img {
+      width: 50%;
+    }
+
+  }
+
   
   @media all and (max-width: 768px) {
     h1 {

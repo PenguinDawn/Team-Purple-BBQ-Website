@@ -77,6 +77,7 @@ h1, h2, h3 {
     align-items: center;
     justify-items: center;
     gap: 1rem;
+    padding: 40px;
     grid-template-columns:
         repeat(3, minmax(0, 1frm));
     grid-template-areas: 
@@ -115,8 +116,10 @@ h1, h2, h3 {
 
 .et {
     grid-area: four;
+    justify-items: center;
+    align-items: center;
     img {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -240,7 +243,17 @@ h1, h2, h3 {
 }
 
 .sponsor-list {
-    grid-area: twenty-two
+    grid-area: twenty-two;
+    display: flex;
+    padding: 30px;
+    font: 25px;
+    .left-column {
+        padding: 30px;
+    }
+    .right-column {
+        padding: 30px;
+    }
+
 }
 
 /* footer */
