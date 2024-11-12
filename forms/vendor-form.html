@@ -25,37 +25,37 @@
 
         <div>
             <label for="phone-number">Phone Number (000-000-0000):</label>
-            <input id="phone-number" name="phone-number" type="phone"/>
+            <input id="phone-number" name="phone-number" type="phone" required/>
         </div>
 
         <div>
             <label for="email">Email Address (example@gmail.com):</label>
-            <input id="email" name="email" type="email" />
+            <input id="email" name="email" type="email" required/>
         </div>
 
         <div>
             <label for="mailing-address-1">Mailing Address First Line:</label>
-            <input id="mailing-address-1" name="mailing-address-1" type="text" />
+            <input id="mailing-address-1" name="mailing-address-1" type="text" required/>
         </div>
 
         <div>
             <label for="city">City:</label>
-            <input id="city" name="city" type="text" />
+            <input id="city" name="city" type="text" required/>
         </div>
 
         <div>
             <label for="state">State:</label>
-            <input id="state" name="state" type="text" />
+            <input id="state" name="state" type="text" required/>
         </div>
 
         <div>
             <label for="zip">Zip Code (00000):</label>
-            <input id="zip" name="zip" type="text" />
+            <input id="zip" name="zip" type="text" required/>
         </div>
 
         <div>
-            <label class="inline" for="logo">Company Logo:</label>
-            <input class="inline" id="logo" name="logo" type="file" />
+            <label for="logo">Company Logo:</label>
+            <input id="logo" name="logo" type="file" />
         </div>
 
         <div>
@@ -71,20 +71,25 @@
 
         <div>
             <label for="credit">Credit Card Number (0000-0000-0000-0000)</label>
-            <input id="credit" name="credit" type="text" />
+            <input id="credit" name="credit" type="text" required/>
         </div>
 
         <div>
-    
-            <input class="inline" id="agree" name="agree" type="checkbox" />
-            <p id="agreement" class="inline">I have read and agreed to pay this amount</p>
+            <input class="inline check" id="agree" name="agree" type="checkbox" required />
+            <p class="inline">I have agreed to pay this amount</p>
+        </div>
+
+        <div>
+            <input class="inline check" id="terms" name="terms" type="checkbox" required/>
+            <p class="inline">I have read the <a href="#">terms and conditions</a></p>
         </div>
 
     
         <div>
             <label for="signature">Electronic Signature:</label>
-            <input id="signature" name="signature" type="text" />
+            <input id="signature" name="signature" type="text" required />
         </div>
         <button type="submit" class="button">Submit</button>
     </form>
 </body>
+</html>

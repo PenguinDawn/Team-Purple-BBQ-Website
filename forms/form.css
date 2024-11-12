@@ -24,18 +24,15 @@ form > div {
 
 input {
     width: 100%;
+    padding-left: 2px;
 }
 
-.inline {
-    display: block;
-}
 
-#agree {
-    display: inline;
+.check {
     width: 5%;
 }
 
-#agreement {
+.inline {
     display: inline;
 }
 
@@ -44,12 +41,11 @@ input {
 }
 
 #date, #amount {
-    width: 4rem;
+    width: 3.5rem;
 }
 
-@media screen and (min-width: 600px) {
-    .inline {
-        display: inline;
-    }
-    
+
+#credit {
+    font-family: "Ariel", sans-serif;
+    font-weight: 600;
 }
