@@ -70,7 +70,7 @@
             <p class="warning">*Pulled Pork, BBQ Chicken, BBQ Ribs and Brisket are NOT allowed to be served by any vendors.</p>
         </div>
 
-        <div>
+        <div class="food-shown">
             <label for="vendor-type">Vendor Booth Type</label>
             <select id="vendor-type" name="vendor-type" required>
                 <option value="1">Food/Beverage Tent (10'x10') $350</option>
@@ -80,13 +80,28 @@
             </select>
         </div>
 
+        <div class="food-shown">
+            <p class="warning">*Menu must include prices</p>
+        </div>
+
+        <div class="food-shown">
+            <label for="menu">Menu Upload:</label>
+            <input id="menu" name="menu" type="file"/>
+        </div>
+
+        <div>
+            <label for="menu-writing">Menu (if you didn't upload):</label>
+            <textarea id="menu-writing" name="menu-writing"></textarea>
+            
+        </div>
+
         
 
         <div class="food-shown">
             <p class="warning">*A certificate of insurance showing general liability limits at $1 million per occurrence and $2 million aggregate is required for every vendor and must be attached to application. </p>
         </div>
 
-        <div>
+        <div class="food-shown">
             <label for="insurance">Insurance Certificate:</label>
             <input id="insurance" name="insurance" type="file" required/>
         </div>

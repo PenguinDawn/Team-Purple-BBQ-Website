@@ -15,7 +15,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 form > div {
@@ -24,10 +24,19 @@ form > div {
 
 input {
     width: 100%;
-    padding-left: 2px;
     letter-spacing: 0.4px;
     font-size: 14px;
-    padding: 0.1rem;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
 }
 
 .warning {
