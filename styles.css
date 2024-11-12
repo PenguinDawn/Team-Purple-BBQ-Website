@@ -45,6 +45,8 @@
   .information {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
   }
 
   .dates {
@@ -53,6 +55,12 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    padding: 40px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
   }
   
   @media all and (max-width: 768px) {
@@ -76,6 +84,9 @@ footer {
   background-color: var(--dark-brown);
   display: grid;
   gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
   background-color: #96735A;
   grid-template-columns:
       repeat(3, minmax(0, 1frm));
@@ -86,17 +97,27 @@ footer {
 h2 {
   justify-items: center;
   align-items: center;
+  padding: 0px 0px 10px 0px;
+}
+
+.callin a {
+  text-decoration: none;
+  color: black;
 }
 
 .logo {
   grid-area: a;
   justify-items: center;
   align-items: center;
+  width: 30%;
 }
 
 .socials {
   grid-area: b;
   color: white;
+  img {
+    width: 10%;
+  }
 }
 
 .contact {
