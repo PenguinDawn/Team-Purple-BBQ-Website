@@ -72,7 +72,7 @@ h1, h2, h3 {
 
 .right-side {
     width: 50%;
-    display: flex;
+    min-width: 30%;
 }
 
 .menu {
@@ -80,6 +80,7 @@ h1, h2, h3 {
     list-style: none;
     justify-content: space-evenly;
     width: 100%;
+    min-width: 50%;
 }
 
 /* footer */
@@ -89,6 +90,8 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
 }
+
+
 
 button {
     background-color: var(--primary-blue);
