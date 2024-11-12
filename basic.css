@@ -19,6 +19,7 @@ body {
     font-family: "Neuton", serif;
     max-width: 1440px;
     font-size: 18px;
+    padding-bottom: 1rem;
 }
 
 p {
@@ -87,4 +88,19 @@ h1, h2, h3 {
     background-color: var(--dark-brown);
     display: flex;
     flex-direction: column;
+}
+
+button {
+    background-color: var(--primary-blue);
+    color: white;
+    font-size: 24px;
+    font-family: "Libre Baskerville", serif;
+    padding: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    border: 1px black solid;
+    box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+    -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+
 }
