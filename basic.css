@@ -104,3 +104,30 @@ button {
     -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
 
 }
+
+.desktop-hidden {
+    display: none;
+}
+
+.mobile-hidden {
+    display: block;
+}
+
+@media screen and (max-width: 650px) {
+    .mobile-hidden {
+        display: none;
+    }
+    .desktop-hidden {
+        display: block;
+    }
+
+    .hamburger {
+        width: 3rem;
+    }
+
+    .right-side {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+}
