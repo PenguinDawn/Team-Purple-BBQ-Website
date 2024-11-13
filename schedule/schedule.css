@@ -11,16 +11,19 @@
 .schedule {
     display: flex;
     flex-direction: row;
+    min-height: 1000px;
 }
 
 .left {
     display: flex;
+    flex-direction: column;
 }
 
 .card {
     display: flex;
     background-color: var(--dark-tan);
     border-radius: 5px;
+    flex-direction: column;
 }
 
 .card-collapsed {
@@ -32,4 +35,5 @@
 
 .right {
     display: flex;
+    flex-direction: column;
 }
