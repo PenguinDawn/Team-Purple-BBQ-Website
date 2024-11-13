@@ -31,6 +31,13 @@ h1, h2, h3 {
     font-size: 24px;
 }
 
+.navbar ul li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
 
 .navbar {
     background-color: var(--dark-brown);
@@ -192,6 +199,8 @@ footer {
     display: block;
 }
 
+
+
 @media screen and (max-width: 650px) {
     .mobile-hidden {
         display: none;
@@ -220,6 +229,12 @@ footer {
     h3 {
         font-size: 20px;
     }
+
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
 
     .right-side {
         display: flex;
