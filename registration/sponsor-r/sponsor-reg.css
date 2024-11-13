@@ -6,6 +6,10 @@ body {
     padding-bottom: 2rem;
 }
 
+h1 {
+    font-size: 34px;
+}
+
 
 .reg-banner {
     height: 10rem;
