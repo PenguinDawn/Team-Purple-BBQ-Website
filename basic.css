@@ -39,7 +39,7 @@ h1, h2, h3 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     justify-content: space-between;
-    width: 98%;
+    width: 99%;
     align-items: center;
     color: white;
 }
@@ -71,7 +71,7 @@ h1, h2, h3 {
 }
 
 .right-side {
-    width: 50%;
+    width: 20%;
     min-width: 30%;
 }
 
