@@ -244,4 +244,30 @@ footer {
     }
 
 
+
+    footer {
+        grid-template-areas:
+        'a c'
+        'b b';
+        grid-template-columns:
+        repeat(2, minmax(0, 50%));
+
+    }
+
+    .logo {
+        grid-area: a;
+    }
+
+    .contact {
+        grid-area: c;
+    }
+
+    .socials {
+        grid-area: b;
+    }
+
+
+    
+
+
 }
