@@ -74,7 +74,3 @@ main {
     padding:5px;
     align-self: flex-start;
 }
-
-div {
-    border: solid red 2px;
-}
