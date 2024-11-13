@@ -39,8 +39,9 @@ main {
     padding-top:5vh;
 }
 
-.schedule {
+.schedule-section {
     min-width:60vw;
+    min-height: 65vh;
     padding-top:5vh;
 }
 
@@ -67,7 +68,7 @@ h1, h2, h3 {
     background-color: var(--dark-tan);
     border-radius: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding:5px;
     align-self: flex-start;
 }
