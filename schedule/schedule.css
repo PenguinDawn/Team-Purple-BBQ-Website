@@ -8,6 +8,11 @@
     --dark-brown: #96735A;
 }
 
+.schedule {
+    display: flex;
+    flex-direction: row;
+}
+
 .left {
     display: flex;
 }
