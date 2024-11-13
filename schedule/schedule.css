@@ -31,6 +31,7 @@ main {
 .left {
     min-width:60vw;
     padding-top:5vh;
+    padding-inline:5vw;
 }
 
 .right {
@@ -42,7 +43,7 @@ main {
 .schedule-section {
     min-width:60vw;
     min-height: 65vh;
-    padding-top:5vh;
+    padding-block:5vh;
 }
 
 /* general elements */
@@ -83,4 +84,8 @@ h1, h2, h3 {
     flex-direction: row;
     background-color: var(--light-brown);
     border-radius: 10px;
+}
+
+div {
+    border: solid red 2px;
 }
