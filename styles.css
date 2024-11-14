@@ -100,11 +100,15 @@
     font-size: 4.5rem;
   }
 
+  /* page */
+
   .information {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 85%;
+    align-items: center;
+    justify-items: center;
+    width: 95%;
     padding: 50px;
   }
 
@@ -144,16 +148,14 @@
 
   .sponsors {
     background-color: #D9CAB2;
-    max-width: 300px;
-    padding: 30px;
+    border-radius: 5%;
+    max-width: 400px;
+
     img {
       width: 100%;
+      height: 60%;
       border-radius: 5%;
       padding: 0px 0px 20px 0px;
-    }
-    h1 {
-      align-items: center;
-      justify-items: center;
     }
     hr {
       height: 1px;
@@ -165,30 +167,33 @@
 
   .callin {
     background-color: #D9CAB2;
-    max-width: 300px;
-    padding: 30px;
+    border-radius: 5%;
+    max-width: 400px;
+
     img {
-      width: 100%;
-      padding: 0px 0px 20px 0px;
-    }
-    h3 {
-      justify-content: center;
-      align-content: center;
+      width: 95%;
+      padding: 60px 0px 20px 10px;
+      background-color: #96735A;
+      border-radius: 5%;
     }
     hr {
       height: 1px;
+      width: 80%;
       color: black;
       border: none;
       background-color: black;
+      padding: 0px 0px 0px 20px;
     }
   }
 
   .vendors {
     background-color: #D9CAB2;
-    max-width: 300px;
-    padding: 30px;
+    border-radius: 5%;
+    max-width: 400px;
+
     img {
       width: 100%;
+      height: 60%;
       border-radius: 5%;
       padding: 0px 0px 20px 0px;
     }
