@@ -19,7 +19,7 @@ main {
 
 .left {
     min-width: 70%;
-    padding-top:5vh;
+    padding-block:5vh;
     padding-inline:5vw;
 }
 
@@ -42,8 +42,17 @@ main {
     flex-direction: column;
 }
 
+.blue {
+    color: var(--primary-blue);
+}
+
 .schedule {
     width: 100%;
+    gap: 3rem;
+}
+
+.schedule-day {
+    gap: 2rem;
 }
 
 .card {
@@ -64,6 +73,16 @@ main {
     flex-grow: 1;
 }
 
+.card-collapsed img {
+    max-height: 2rem;
+    margin-block: 4px;
+    margin-inline: 10px;
+}
+
+.card-content {
+    padding: 1em;
+}
+
 .filters-box {
     min-width: 150px;
     min-height: 150px;
@@ -71,6 +90,24 @@ main {
     border-radius: 10px;
     justify-content: center;
     align-items: flex-start;
-    padding:5px;
     align-self: flex-start;
+    padding:2rem;
+    gap: .5em;
+}
+
+/* Text coloring and formatting */
+
+main h1 {
+    font-size: 64px;
+}
+
+main .time {
+    color: var(--primary-red);
+    font-weight: bold;
+}
+
+main .description {
+    font-size:  24px;
+    font-weight: 500;
+    padding-bottom: .5em;
 }
