@@ -20,18 +20,20 @@
                 <li><a href="registration/registration.html"> Register </a></li>
                 <li><a href="sponsors/sponsor.html"> Sponsor </a></li>
             </ul>
-            <img class="hamburger desktop-hidden" src="images/hamburger-men.svg"/>
+            <img id="hamburger" class="hamburger desktop-hidden" src="images/hamburger-men.svg"/>
         </div>
     </div>
 
     <div class="mobile-hidden desktop-hidden">
-        <div id="overlay"></div>
-        <ul id="navi" class="menu mobile-hidden">
-            <li><a href="schedule/schedule.html"> Schedule </a></li>
-            <li><a href="registration/registration.html"> Register </a></li>
-            <li><a href="sponsors/sponsor.html"> Sponsor </a></li>
-        </ul>
-
+        <div class="overlay mobile-hidden"></div>
+        <div id="navigation" class="mobile-hidden">
+            <img id="ham-close" src="images/icon-menu-close.svg"/>
+            <ul  class="menu">
+                <li><a href="schedule/schedule.html"> Schedule </a></li>
+                <li><a href="registration/registration.html"> Register </a></li>
+                <li><a href="sponsors/sponsor.html"> Sponsor </a></li>
+            </ul>
+        </div>
     </div>
 
     <img src="images/Main.jpg" class="main">
@@ -120,5 +122,6 @@
         </div>
     </footer>
     <script src="main.js"></script>
+    <script src="basic.js"></script>
 </body>
 </html>

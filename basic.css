@@ -187,26 +187,75 @@ footer {
   }
 
 
-
-
-
-
-.desktop-hidden {
-    display: none;
-}
-
-.mobile-hidden {
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(90, 88, 87);
+    opacity: 70%;
+    z-index: 3;
+    right: 0;
+    top: 0;
     display: block;
 }
 
 
+/* Mobile Navigation*/
+#navigation {
+    width: 60%;
+    height: 100vh;
+    background-color: var(--dark-tan);
+    z-index: 3;
+    right: 0;
+    top: 0;
+    position: fixed;
+    display: block;
+    opacity: 100%;
+    padding-top: 1rem;
+    padding-inline: 1.5rem;
+}
+
+
+#navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 20px;
+    padding-top: 5rem;
+}
+
+#navigation ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+#navigation ul li a:hover {
+    color: rgb(121, 54, 54);;
+    text-decoration: underline;
+}
+
+#ham-close {
+    display: block;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+
+.desktop-hidden {
+    display: none !important;
+}
+
+.mobile-hidden {
+    display: block !important;
+}
+
 
 @media screen and (max-width: 700px) {
     .mobile-hidden {
-        display: none;
+        display: none !important;
     }
     .desktop-hidden {
-        display: block;
+        display: block !important;
     }
 
     .navbar {
@@ -265,9 +314,5 @@ footer {
     .socials {
         grid-area: b;
     }
-
-
-    
-
 
 }
