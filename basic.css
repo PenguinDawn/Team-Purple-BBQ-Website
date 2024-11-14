@@ -12,14 +12,13 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--light-tan);
     font-family: "Neuton", serif;
-    max-width: 1440px;
     font-size: 18px;
-    padding-bottom: 1rem;
 }
 
 p {
@@ -46,7 +45,7 @@ h1, h2, h3 {
     padding-top: 1rem;
     padding-bottom: 1rem;
     justify-content: space-between;
-    width: 99%;
+    width: 100%;
     align-items: center;
     color: white;
 }
@@ -110,6 +109,7 @@ button {
 
 
 footer {
+    width: 100%;
     background-color: var(--dark-brown);
     display: grid;
     gap: 1rem;
@@ -242,6 +242,32 @@ footer {
         width: 30%;
         padding-right: 1rem;
     }
+
+
+
+    footer {
+        grid-template-areas:
+        'a c'
+        'b b';
+        grid-template-columns:
+        repeat(2, minmax(0, 50%));
+
+    }
+
+    .logo {
+        grid-area: a;
+    }
+
+    .contact {
+        grid-area: c;
+    }
+
+    .socials {
+        grid-area: b;
+    }
+
+
+    
 
 
 }
