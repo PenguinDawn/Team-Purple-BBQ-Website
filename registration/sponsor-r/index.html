@@ -14,6 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <div class="navbar">
         <div class="left-side">
             <a href="../../index.html"> <img src="../../images/pig.svg" id="piggy"> </a>
@@ -22,19 +23,33 @@
         <div class="right-side">
             <ul class="menu mobile-hidden">
                 <li><a href="../../schedule/schedule.html"> Schedule </a></li>
-                <li id="dropper"><a href="../../registration/registration.html"> Register </a>
-                    <div id="dropped" class="hidden">
+                <li><a href="../../registration/registration.html"> Register </a>
+                    <div id="dropped">
                         <ul>
-                            <li>Sponsor</li>
+                            <li><a>Sponsor</a></li>
                             <li>Vendor</li>
                             <li>Hog Callin'</li>
                         </ul>
                     </div></li>
-                <li><a href="../../sponsors/sponsor.html"> Sponsor </a></li>
+                <li><a href="../../sponsors/sponsor.html"> Sponsors</a></li>
             </ul>
-            <img class="hamburger desktop-hidden" src="../../images/hamburger-men.svg"/>
+            <img id="hamburger" class="hamburger desktop-hidden" src="../../images/hamburger-men.svg"/>
         </div>
     </div>
+
+    <div class="mobile-hidden desktop-hidden">
+        <div class="overlay mobile-hidden"></div>
+        <div id="navigation" class="mobile-hidden">
+            <img id="ham-close" src="../../images/icon-menu-close.svg"/>
+            <ul  class="menu">
+                <li><a href="../../schedule/schedule.html"> Schedule </a></li>
+                <li><a href="../../registration/registration.html"> Register </a></li>
+                <li><a href="../../sponsors/sponsor.html"> Sponsors </a></li>
+            </ul>
+        </div>
+    </div>
+
+
 
     <div class="reg-banner">
         <h1>Registration</h1>
