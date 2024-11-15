@@ -228,7 +228,7 @@ footer {
     position: fixed;
     background-color: rgb(90, 88, 87);
     opacity: 70%;
-    z-index: 3;
+    z-index: 87;
     right: 0;
     top: 0;
     display: block;
@@ -240,7 +240,7 @@ footer {
     width: 60%;
     height: 100vh;
     background-color: var(--dark-tan);
-    z-index: 3;
+    z-index: 88;
     right: 0;
     top: 0;
     position: fixed;
@@ -283,6 +283,7 @@ footer {
 .mobile-hidden {
     display: block !important;
 }
+
 
 
 @media screen and (max-width: 700px) {
