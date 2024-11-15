@@ -99,7 +99,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 60%;
+    width: 50%;
 }
 
 .featured-logo {
@@ -136,6 +136,7 @@ h1, h2, h3 {
 
 .et {
     grid-area: four;
+    padding: 30px;
     justify-items: center;
     align-items: center;
     img {
@@ -145,6 +146,7 @@ h1, h2, h3 {
 
 .first-bank {
     grid-area: five;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -152,6 +154,7 @@ h1, h2, h3 {
 
 .stem {
     grid-area: six;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -159,6 +162,7 @@ h1, h2, h3 {
 
 .freed {
     grid-area: seven;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -166,6 +170,7 @@ h1, h2, h3 {
 
 .fire-protection {
     grid-area: eight;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -173,6 +178,7 @@ h1, h2, h3 {
 
 .lamar {
     grid-area: nine;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -180,6 +186,7 @@ h1, h2, h3 {
 
 .arvin {
     grid-area: ten;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -187,13 +194,15 @@ h1, h2, h3 {
 
 .alliance {
     grid-area: eleven;
+    padding: 30px;
     img {
-        width: 80%;
+        width: 70%;
     }
 }
 
 .jones {
     grid-area: twelve;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -201,20 +210,23 @@ h1, h2, h3 {
 
 .mexican {
     grid-area: thirteen;
+    padding: 30px;
     img {
-        width: 80%;
+        width: 90%;
     }
 }
 
 .community-bank {
     grid-area: fourteen;
+    padding: 30px;
     img {
-        width: 80%;
+        width: 50%;
     }
 }
 
 .new {
     grid-area: fifteen;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -222,27 +234,31 @@ h1, h2, h3 {
 
 .bramblett {
     grid-area: sixteen;
+    padding: 30px;
     img {
-        width: 80%;
+        width: 100%;
     }
 }
 
 .tosh-farms {
     grid-area: seventeen;
+    padding: 30px;
     img {
-        width: 80%;
+        width: 90%;
     }
 }
 
 .pork {
     grid-area: eighteen;
+    padding: 30px;
     img {
-        width: 80%;
+        width: 90%;
     }
 }
 
 .anew {
     grid-area: nineteen;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -250,6 +266,7 @@ h1, h2, h3 {
 
 .signs {
     grid-area: twenty;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -257,6 +274,7 @@ h1, h2, h3 {
 
 .jackson-state {
     grid-area: twenty-one;
+    padding: 30px;
     img {
         width: 80%;
     }
@@ -288,42 +306,4 @@ h1, h2, h3 {
     padding: 60px;
     background-color: #D9CAB2;
     line-height: 1.7rem;
-}
-
-/* footer */
-
-footer {
-    display: grid;
-    gap: 1rem;
-    background-color: #96735A;
-    grid-template-columns:
-        repeat(3, minmax(0, 1frm));
-    grid-template-areas:
-    'a b c'
-}
-
-h2 {
-    justify-items: center;
-    align-items: center;
-}
-
-.logo {
-    grid-area: a;
-    width: 25%;
-    padding: 30px;
-}
-
-.socials {
-    grid-area: b;
-    color: white;
-    img {
-        width: 10%;
-    }
-}
-
-.contact {
-    grid-area: c;
-    color: white;
-    justify-content: center;
-    align-items: center;
 }
