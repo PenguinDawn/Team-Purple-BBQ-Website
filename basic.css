@@ -8,9 +8,7 @@
     --dark-brown: #96735A;
 }
 
-.hidden {
-    display: none !important;
-}
+
 
 * {
     padding: 0;
@@ -281,7 +279,7 @@ footer {
 }
 
 .desktop-hidden {
-    display: none !important;
+    display: none;
 }
 
 
@@ -345,18 +343,12 @@ footer {
     }
 
 
-    .mobile-hidden {
-        display: none;
-    }
-
     .desktop-hidden {
         display: block;
     }
 
+    .mobile-hidden {
+        display: none;
+    }
+
 }
-
-.hidden {
-    display: none !important;
-
-}
-
