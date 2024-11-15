@@ -110,7 +110,7 @@ h1, h2, h3 {
 }
 
 .words {
-    padding: 130px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .thanks {
@@ -118,16 +118,19 @@ h1, h2, h3 {
     background-color: #D9CAB2;
     padding: 30px;
     width: 100%;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    h2 {
-        justify-items: center;
-        align-items: center;
-    }
 }
 
 .button {
     grid-area: three;
+    padding: 20px 20px 20px 20px;
+    background-color: var(--primary-blue);
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    justify-items: center;
+    align-items: center;
 }
 
 .et {

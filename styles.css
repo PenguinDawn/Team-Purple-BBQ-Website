@@ -182,7 +182,10 @@
       color: black;
       border: none;
       background-color: black;
-      padding: 0px 0px 0px 20px;
+    }
+    .button {
+      background-color: var(--primary-blue);
+      border-radius: 3%;
     }
   }
 
