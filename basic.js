@@ -31,3 +31,12 @@ function hide(){
 dropper.addEventListener("click", hide);
 over.addEventListener("click", hide);
 
+const dropper2 = document.getElementById("dropper-2");
+const dropped2 = document.getElementById("dropped-2");
+
+function hide_2(){
+    dropped2.classList.toggle("hidden")
+    dropper2.classList.toggle("brown");
+}
+
+dropper2.addEventListener("click", hide_2);
