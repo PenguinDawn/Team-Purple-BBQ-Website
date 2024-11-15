@@ -276,23 +276,16 @@ footer {
 }
 
 
+.mobile-hidden {
+    display: block;
+}
+
 .desktop-hidden {
     display: none !important;
 }
 
-.mobile-hidden {
-    display: block !important;
-}
-
-
 
 @media screen and (max-width: 700px) {
-    .mobile-hidden {
-        display: none !important;
-    }
-    .desktop-hidden {
-        display: block !important;
-    }
 
     .navbar {
         height: 20%;
@@ -350,6 +343,20 @@ footer {
     .socials {
         grid-area: b;
     }
+
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .desktop-hidden {
+        display: block;
+    }
+
+}
+
+.hidden {
+    display: none !important;
 
 }
 
