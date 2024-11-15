@@ -11,6 +11,7 @@ h1 {
 
 
 .reg-banner {
+    margin-top: -3rem;
     height: 10rem;
     display: flex;
     justify-content: center;
@@ -88,6 +89,9 @@ ul li {
     margin-bottom: 0.3rem;
 }
 
-.hidden {
-    display: none;
+
+@media screen and (max-width: 700px) {
+    .reg-banner {
+        margin-top: 0;
+    }
 }
