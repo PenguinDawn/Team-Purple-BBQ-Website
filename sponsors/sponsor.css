@@ -129,7 +129,7 @@ h1, h2, h3 {
     background-color: var(--primary-blue);
     color: white;
     border-radius: 20px;
-    text-decoration: none;
+
     width: 300px;
     justify-items: center;
     align-items: center;
@@ -307,4 +307,38 @@ h1, h2, h3 {
     padding: 60px;
     background-color: #D9CAB2;
     line-height: 1.7rem;
+}
+
+@media (max-width:700px) and (min-width:300px) {
+    .main {
+     display: grid;
+     align-items: center;
+     justify-items: center;
+     gap: 1rem;
+     grid-template-columns:
+            repeat(1, minmax(0, 1frm));
+     grid-template-areas: 
+        'one'
+        'two'
+        'three'
+        'four'
+        'five'
+        'six'
+        'seven'
+        'eight'
+        'nine'
+        'ten'
+        'eleven'
+        'twelve'
+        'thirteen'
+        'fourteen'
+        'fifteen'
+        'sixteen'
+        'seventeen'
+        'eighteen'
+        'twenty'
+        'twenty-one'
+        'twenty-two'
+        'twenty-three';
+    }
 }
