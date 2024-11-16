@@ -156,6 +156,16 @@ ul li {
 }
 
 
+
+#ham-close {
+    display: block;
+    font-size: 50px;
+    width: 1rem;
+}
+
+#ham-close:hover {
+    color: white;
+}
 /* footer */
 
 
