@@ -16,16 +16,45 @@
 <body>
     <div class="navbar">
         <div class="left-side">
-            <a href="../../index.html"> <img src="../../images/pig.svg" id="piggy"> </a>
+            <a href="../index.html"> <img src="../../images/pig.svg" id="piggy"> </a>
             <h3>Chester County BBQ Festival</h2>
         </div>
         <div class="right-side">
             <ul class="menu mobile-hidden">
                 <li><a href="../../schedule/schedule.html"> Schedule </a></li>
-                <li><a href="../../registration/registration.html"> Register </a></li>
-                <li><a href="../../sponsors/sponsor.html"> Sponsor </a></li>
+                <li id="dropper">Register
+                    <div id="dropped" class="hidden">
+                        <ul>
+                            <a href="../sponsor-r/index.html"><li>Sponsor</li></a>
+                            <a href="../vendors/index.html"><li>Vendor</li></a>
+                            <a href="../hog-callin/index.html"><li>Hog Callin'</li></a>
+                        </ul>
+                    </div></li>
+                <li><a href="../../sponsors/sponsor.html"> Sponsors</a></li>
             </ul>
-            <img class="hamburger desktop-hidden" src="../../images/hamburger-men.svg"/>
+            <img id="hamburger" class="hamburger desktop-hidden" src="../../images/hamburger-men.svg"/>
+        </div>
+    </div>
+
+    <div id="outside-clicker" class="hidden"></div>
+
+    <div id="classier" class="desktop-hidden mobile-hidden">
+        <div class="overlay mobile-hidden"></div>
+        <div id="navigation" class="mobile-hidden">
+            <img id="ham-close" src="../../images/icon-menu-close.svg"/>
+            <ul class="menu mobility" >
+                <a href="../../schedule/schedule.html"><li> Schedule </li></a>
+                <li id="dropper-2">Register 
+                    <div id="dropped-2" class="hidden">
+                        <ul>
+                            <a href="../sponsor-r/index.html"><li>Sponsor</li></a>
+                            <a href="../vendors/index.html"><li>Vendor</li></a>
+                            <a href="../hog-callin/index.html"><li>Hog Callin'</li></a>
+                        </ul>
+                    </div>
+                </li>
+                <a href="../../sponsors/sponsor.html"><li> Sponsors</li> </a>
+            </ul>
         </div>
     </div>
 
