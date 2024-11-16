@@ -98,9 +98,10 @@ h1, h2, h3 {
     grid-area: one;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-evenly;
+    margin-right: 5%;
 }
+
 
 .featured-logo {
     width: 40%;
@@ -119,6 +120,7 @@ h1, h2, h3 {
     background-color: #D9CAB2;
     padding: 30px;
     width: 100%;
+    display: flex;
     justify-items: center;
     align-items: center;
 }
@@ -292,8 +294,8 @@ h1, h2, h3 {
     grid-area: twenty-three;
     display: flex;
     justify-content: space-between;
-    width: 60%;
-    padding: 0px 30px 30px 30px;
+    width: 80%;
+    padding: 0 30px 30px 30px;
     font: 25px;
 }
 
@@ -302,6 +304,10 @@ h1, h2, h3 {
     background-color: #D9CAB2;
     line-height: 1.7rem;
 }
+
+/* .left-column > *, .right-column > * {
+    margin-top: 2rem;
+} */
 
 .right-column {
     padding: 60px;
