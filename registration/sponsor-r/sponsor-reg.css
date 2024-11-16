@@ -58,6 +58,8 @@ h1 {
     gap: 1.5rem;;
 }
 
+
+
 .arrow {
     width: 2rem;
 }
@@ -72,6 +74,11 @@ h1 {
     padding-bottom: 0.5rem;
     padding-top: 2.5rem;
     margin-top: -2rem;
+}
+
+.bottom ul li {
+    font-size: 18px;
+
 }
 
 
