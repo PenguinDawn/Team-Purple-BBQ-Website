@@ -131,11 +131,13 @@ h1, h2, h3 {
     background-color: var(--primary-blue);
     color: white;
     border-radius: 20px;
-
+    text-decoration: none;
     width: 300px;
     justify-items: center;
     align-items: center;
 }
+
+
 
 .et {
     grid-area: four;
@@ -294,8 +296,13 @@ h1, h2, h3 {
     grid-area: twenty-three;
     display: flex;
     justify-content: space-between;
+<<<<<<< Updated upstream
     width: 80%;
     padding: 0 30px 30px 30px;
+=======
+    width: 90%;
+    padding: 0px 30px 30px 30px;
+>>>>>>> Stashed changes
     font: 25px;
 }
 
