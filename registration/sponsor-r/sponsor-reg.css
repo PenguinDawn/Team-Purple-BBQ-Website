@@ -74,20 +74,6 @@ h1 {
     margin-top: -2rem;
 }
 
-ul li {
-    padding-bottom: 0.8rem;
-}
-
-.classier {
-    margin-bottom: -0.8rem;
-    margin-top: 0.2rem;
-}
-
-.register {
-    font-size: 18px;
-    margin-left: 40%;;
-    margin-bottom: 0.3rem;
-}
 
 
 @media screen and (max-width: 700px) {

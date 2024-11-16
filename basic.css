@@ -35,6 +35,12 @@ h1, h2, h3 {
     font-size: 24px;
 }
 
+li {
+    font-size: 21px;
+}
+
+
+
 .navbar ul li {
     display: inline-block;
     font-size: 1.5em;
@@ -133,6 +139,22 @@ h1, h2, h3 {
     width: 100vw;
     height: 100vh;
 }
+
+ul li {
+    padding-bottom: 0.8rem;
+}
+
+.classier {
+    margin-bottom: -0.8rem;
+    margin-top: 0.2rem;
+}
+
+.register {
+    font-size: 18px;
+    margin-left: 40%;;
+    margin-bottom: 0.3rem;
+}
+
 
 /* footer */
 
