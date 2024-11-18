@@ -20,6 +20,15 @@ a {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: white;
+    color: var(--primary-blue);
+    font-weight: 600;
+    border: 3px var(--primary-blue) solid;
+    cursor: pointer;
+ }
+ 
+
 body {
     background-color: var(--light-tan);
     font-family: "Neuton", serif;
@@ -149,11 +158,7 @@ ul li {
     margin-top: 0.2rem;
 }
 
-.register {
-    font-size: 18px;
-    margin-left: 40%;;
-    margin-bottom: 0.3rem;
-}
+
 
 
 

@@ -1,0 +1,107 @@
+:root {
+    --primary-red: #CF6038;
+    --primary-blue: #5872A6;
+    --light-tan: #EDE6D5;
+    --dark-tan: #D9CAB2;
+    --light-brown: #BFA378;
+    --medium-brown: #B8854B;
+    --dark-brown: #96735A;
+}
+
+.vendor-banner {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.vendor-banner h1 {
+    font-size: 40px;
+}
+
+.info-card {
+    background-color: var(--light-brown);
+    height: 50vh;
+    margin-bottom: 10%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
+    padding-left: 2rem;
+}
+
+.picture {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2px;
+}
+
+.register {
+    height: 2rem;
+    font-size: 18px;
+    width: 10rem;
+}
+
+
+#bbq-img {
+    width: 330px;
+    border-radius: 20px;
+    margin-top: -2rem;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vendor-banner h1 {
+        font-size: 30px;
+    }
+
+    #bbq-img {
+        width: 180%;
+
+    }
+
+
+    .info-card {
+        flex-direction: column;
+        height: 620px;
+        max-height: 100vh;
+        width: 80%;
+        border-radius: 10px;
+        gap: 2rem;
+        padding-top: 7%;
+    }
+
+    .info {
+        width: 80%;
+    }
+
+    .button-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}
