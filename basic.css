@@ -65,7 +65,7 @@ li {
     padding-top: 1rem;
     padding-bottom: 1rem;
     justify-content: space-between;
-    width: 98vw;
+    width: 100vw;
     align-items: center;
     color: white;
 }
@@ -99,7 +99,9 @@ li {
 }
 
 .right-side {
-    width: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu {
@@ -425,6 +427,10 @@ footer {
 
     .socials {
         grid-area: b;
+    }
+
+    .menu li {
+        font-size: 18px;
     }
 
 

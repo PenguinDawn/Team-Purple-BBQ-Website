@@ -99,21 +99,32 @@ h1, h2, h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-right: 5%;
+    align-items: center;
+    margin-inline: 5%;
+    height: 250px;
 }
 
 
 .featured-logo {
-    width: 40%;
+    width: 50%;
+    max-width: 500px;
     padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
         width: 100%;
     }
 }
 
+.words {
+    display: flex;
+    align-items: center;
+}
+
 .words h1{
-    padding: 120px 0px 0px 0px;
-    font-size: 40px;
+    font-size: 28px;
+    padding-top: 1rem;
 }
 
 .thanks {
@@ -329,6 +340,7 @@ h1, h2, h3 {
      align-content: center;
      justify-content: center;
      gap: 1rem;
+     width: 100vw;
      grid-template-columns:
             repeat(1, minmax(0, 1frm));
      grid-template-areas: 
@@ -362,9 +374,16 @@ h1, h2, h3 {
         justify-items: center;
         align-items: center;
     }
+
+    .words {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
     
     .featured-logo {
-        width: 40%;
+        width: 80%;
         padding: 40px;
     }
     
@@ -380,6 +399,7 @@ h1, h2, h3 {
         display: flex;
         justify-items: center;
         align-items: center;
+
     }
     
     .button {
