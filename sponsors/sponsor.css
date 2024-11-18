@@ -107,6 +107,7 @@ h1, h2, h3 {
 
 .featured-logo {
     width: 50%;
+    max-width: 500px;
     padding: 40px;
     display: flex;
     justify-content: center;
