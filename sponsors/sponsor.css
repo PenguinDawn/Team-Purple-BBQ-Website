@@ -416,6 +416,7 @@ h1, h2, h3 {
         text-decoration: none;
         justify-items: center;
         align-items: center;
+        color: black;
     }
     
     .et {
