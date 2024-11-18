@@ -86,7 +86,7 @@ const pen_accord = document.getElementById("pen-accord");
 const splash_arrow = document.getElementById("splash-arrow");
 const splash_upside_arrow = document.getElementById("splash-upside-arrow");
 const splash_drop = document.getElementById("splash-drop");
-const splash_accord = document.getElementById("dplash-accord");
+const splash_accord = document.getElementById("splash-accord");
 
 // Porky's Pedal Tractor Pull
 const porky_arrow = document.getElementById("porky-arrow");
