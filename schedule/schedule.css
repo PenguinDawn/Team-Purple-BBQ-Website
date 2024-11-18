@@ -84,7 +84,7 @@ main {
 }
 
 .filters-box {
-    min-width: 150px;
+    min-width: 200px;
     min-height: 150px;
     background-color: var(--dark-tan);
     border-radius: 10px;
@@ -93,6 +93,15 @@ main {
     align-self: flex-start;
     padding:2rem;
     gap: .5em;
+
+    position: fixed;
+}
+
+.filters-box label{
+    font-size: 28px;
+}
+.filters-box h3{
+    font-size: 34px;
 }
 
 /* Text coloring and formatting */
@@ -110,4 +119,17 @@ main .description {
     font-size:  24px;
     font-weight: 500;
     padding-bottom: .5em;
+}
+
+@media screen and (max-width: 700px) {
+    .filters-box {
+        min-width: 150px;
+    }
+
+    .filters-box label{
+        font-size: 18px;
+    }
+    .filters-box h3{
+        font-size: 24px;
+    }
 }
