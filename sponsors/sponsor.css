@@ -358,11 +358,10 @@ h1, h2, h3 {
     .featured-sponsor {
         grid-area: one;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-right: 5%;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
     }
-    
     
     .featured-logo {
         width: 40%;
@@ -370,7 +369,7 @@ h1, h2, h3 {
     }
     
     .words{
-        padding: 100px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
     
     .thanks {
