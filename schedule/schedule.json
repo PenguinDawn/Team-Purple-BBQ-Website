@@ -1,0 +1,41 @@
+{
+    "Touch-a-Truck and First Responders Appreciation": {
+        "title" : "Touch-a-Truck and First Responders Appreciation",
+        "date" : "Thursday, October 3rd",
+        "time" : "6:00 pm",
+        "description" : "Bring the kids to enjoy a hands-on event with Emergency and Utility Vehicles.",
+        "location" : "Henderson Church of Christ parking lot",
+        "price" : "Free",
+        "sponsor": "Jones Contractors",
+        "show-tag" : false,
+        "free-tag" : true,
+        "kids-tag" : true,
+        "food-tag" : false
+    },
+    "46th Annual Chester County BBQ Festival": {
+        "title" : "46th Annual Chester County BBQ Festival",
+        "date" : "Friday, October 4th",
+        "time" : "10:00 am - 10:00 pm",
+        "description" : "The main event! Enjoy good food and celebration.",
+        "location" : "Downtown Henderson",
+        "price" : "As much as you want to spend",
+        "sponsor": "Centennial Bank",
+        "show-tag" : false,
+        "free-tag" : false,
+        "kids-tag" : false,
+        "food-tag" : true
+    },
+    "Talent Show": {
+        "title" : "Talent Show",
+        "date" : "Friday, October 4th",
+        "time" : "7:00 pm",
+        "description" : "Registration starts at 6:30 pm. Youth and adult categories. $250 first place cash prize.",
+        "location" : "E&T Contracting stage",
+        "price" : "$25 Entry fee.",
+        "sponsor": "E&T Contracting",
+        "show-tag" : true,
+        "free-tag" : false,
+        "kids-tag" : false,
+        "food-tag" : false
+    }
+}
