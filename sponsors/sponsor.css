@@ -117,26 +117,30 @@ h1, h2, h3 {
 
 .thanks {
     grid-area: two;
+    justify-content: center;
+    align-items: center;
     background-color: #D9CAB2;
     padding: 30px;
     width: 100%;
     display: flex;
-    justify-items: center;
-    align-items: center;
 }
 
 .button {
     grid-area: three;
+    justify-content: center;
+    align-items: center;
     padding: 20px 20px 20px 20px;
     background-color: var(--primary-blue);
-    color: white;
     border-radius: 20px;
-    text-decoration: none;
     width: 300px;
-    justify-items: center;
-    align-items: center;
 }
 
+.button p {
+    color: white;
+    text-decoration: none;
+    justify-items: center;
+    align-content: center;
+}
 
 
 .et {
@@ -296,13 +300,9 @@ h1, h2, h3 {
     grid-area: twenty-three;
     display: flex;
     justify-content: space-between;
-<<<<<<< Updated upstream
-    width: 80%;
-    padding: 0 30px 30px 30px;
-=======
     width: 90%;
+
     padding: 0px 30px 30px 30px;
->>>>>>> Stashed changes
     font: 25px;
 }
 
@@ -325,8 +325,8 @@ h1, h2, h3 {
 @media (max-width:700px) and (min-width:300px) {
     .main {
      display: grid;
-     align-items: center;
-     justify-items: center;
+     align-content: center;
+     justify-content: center;
      gap: 1rem;
      grid-template-columns:
             repeat(1, minmax(0, 1frm));
@@ -353,5 +353,214 @@ h1, h2, h3 {
         'twenty-one'
         'twenty-two'
         'twenty-three';
+    }
+    .featured-sponsor {
+        grid-area: one;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: 5%;
+    }
+    
+    
+    .featured-logo {
+        width: 40%;
+        padding: 40px;
+    }
+    
+    .words {
+        padding: 100px 0px 0px 0px;
+    }
+    
+    .thanks {
+        grid-area: two;
+        background-color: #D9CAB2;
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .button {
+        grid-area: three;
+        padding: 20px 20px 20px 20px;
+        background-color: var(--primary-blue);
+        color: white;
+        border-radius: 20px;
+        text-decoration: none;
+        width: 300px;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    
+    
+    .et {
+        grid-area: four;
+        padding: 30px;
+        justify-items: center;
+        align-items: center;
+        img {
+            width: 70%;
+        }
+    }
+    
+    .first-bank {
+        grid-area: five;
+        padding: 30px;
+        img {
+            width: 90%;
+        }
+    }
+    
+    .stem {
+        grid-area: six;
+        padding: 30px;
+        img {
+            width: 80%;
+        }
+    }
+    
+    .freed {
+        grid-area: seven;
+        padding: 30px;
+        img {
+            width: 90%;
+        }
+    }
+    
+    .fire-protection {
+        grid-area: eight;
+        padding: 30px;
+        img {
+            width: 80%;
+        }
+    }
+    
+    .lamar {
+        grid-area: nine;
+        padding: 30px;
+        img {
+            width: 90%;
+        }
+    }
+    
+    .arvin {
+        grid-area: ten;
+        padding: 30px;
+        img {
+            width: 70%;
+        }
+    }
+    
+    .alliance {
+        grid-area: eleven;
+        padding: 30px;
+        img {
+            width: 70%;
+        }
+    }
+    
+    .jones {
+        grid-area: twelve;
+        padding: 30px;
+        img {
+            width: 100%;
+        }
+    }
+    
+    .mexican {
+        grid-area: thirteen;
+        padding: 30px;
+        img {
+            width: 90%;
+        }
+    }
+    
+    .community-bank {
+        grid-area: fourteen;
+        padding: 30px;
+        img {
+            width: 50%;
+        }
+    }
+    
+    .new {
+        grid-area: fifteen;
+        padding: 30px;
+        img {
+            width: 80%;
+        }
+    }
+    
+    .bramblett {
+        grid-area: sixteen;
+        padding: 30px;
+        img {
+            width: 100%;
+        }
+    }
+    
+    .tosh-farms {
+        grid-area: seventeen;
+        padding: 30px;
+        img {
+            width: 90%;
+        }
+    }
+    
+    .pork {
+        grid-area: eighteen;
+        padding: 30px;
+        img {
+            width: 70%;
+        }
+    }
+    
+    .anew {
+        grid-area: nineteen;
+        padding: 30px;
+        img {
+            width: 80%;
+        }
+    }
+    
+    .signs {
+        grid-area: twenty;
+        padding: 30px;
+        img {
+            width: 80%;
+        }
+    }
+    
+    .jackson-state {
+        grid-area: twenty-one;
+        padding: 30px;
+        img {
+            width: 80%;
+        }
+    }
+    
+    .title {
+        grid-area: twenty-two;
+        padding: 30px 0px 0px 0px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .sponsor-list {
+        grid-area: twenty-three;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 0px 30px 30px 30px;
+        font: 25px;
+    }
+    
+    .left-column {
+        padding: 60px;
+        background-color: #D9CAB2;
+        line-height: 1.7rem;
     }
 }
