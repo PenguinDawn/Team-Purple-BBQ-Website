@@ -19,13 +19,13 @@ main {
 }
 
 .left {
-    min-width: 70%;
+    min-width: 80%;
     padding-block:5vh;
     padding-inline:5vw;
 }
 
 .right {
-    min-width: 30%;
+    min-width: 20%;
     flex-direction: row;
     align-items: center;
     padding-top:5vh;
@@ -43,7 +43,7 @@ main {
 }
 
 .blue {
-    color: var(--primary-blue);
+    color: var(--primary-red);
 }
 
 .schedule {
@@ -84,13 +84,13 @@ main {
 }
 
 .filters-box {
-    min-width: 295px;
-    min-height: 175px;
+    min-width: 245px;
+    min-height: 345px;
     background-color: var(--less-dark-tan);
     border: solid 5px var(--dark-brown);
     border-radius: 10px;
     justify-content: center;
-    align-items: flex-tart;
+    align-items: flex-start;
     align-self: flex-start;
     padding:2rem;
     gap: .5em;
@@ -112,7 +112,7 @@ main h1 {
 }
 
 main .time {
-    color: var(--primary-red);
+    color: var(--primary-blue);
     font-weight: bold;
 }
 
@@ -126,11 +126,10 @@ main .description {
     .schedule h1 {
         min-height: 180px;
     }
-    
 
     .right {
         position: fixed;
-        right: 1.5rem;
+        right: 10vw;
     }
     .left{
         min-width: 100%;
