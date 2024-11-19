@@ -3,6 +3,7 @@
     --primary-blue: #5872A6;
     --light-tan: #EDE6D5;
     --dark-tan: #D9CAB2;
+    --less-dark-tan: #dfc6a9;
     --light-brown: #BFA378;
     --medium-brown: #B8854B;
     --dark-brown: #96735A;
@@ -31,7 +32,6 @@ main {
 }
 
 /* general elements */
-
 .row {
     display: flex;
     flex-direction: row;
@@ -84,12 +84,13 @@ main {
 }
 
 .filters-box {
-    min-width: 200px;
-    min-height: 150px;
-    background-color: var(--dark-tan);
+    min-width: 295px;
+    min-height: 175px;
+    background-color: var(--less-dark-tan);
+    border: solid 5px var(--dark-brown);
     border-radius: 10px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-tart;
     align-self: flex-start;
     padding:2rem;
     gap: .5em;
@@ -122,8 +123,20 @@ main .description {
 }
 
 @media screen and (max-width: 700px) {
+    .schedule h1 {
+        min-height: 180px;
+    }
+    
+
+    .right {
+        position: fixed;
+        right: 1.5rem;
+    }
+    .left{
+        min-width: 100%;
+    }
     .filters-box {
-        min-width: 150px;
+        min-width: 145px;
     }
 
     .filters-box label{
