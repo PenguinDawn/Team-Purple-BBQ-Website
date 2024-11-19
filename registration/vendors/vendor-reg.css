@@ -33,6 +33,7 @@
 }
 
 .picture {
+    padding-top: 2rem;
     width: 45%;
     display: flex;
     align-items: center;
@@ -81,16 +82,16 @@ a {
 
     }
 
-
     .info-card {
         flex-direction: column;
-        height: 620px;
-        max-height: 100vh;
+        height: 100%;
         width: 80%;
         border-radius: 10px;
-        gap: 2rem;
+        gap: 1rem;
         padding-top: 7%;
+        padding-bottom: 7%;
     }
+
 
     .info {
         width: 80%;
