@@ -136,6 +136,7 @@ main .description {
     }
     .filters-box {
         min-width: 145px;
+        min-height: 275px;
     }
 
     .filters-box label{
