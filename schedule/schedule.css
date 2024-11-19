@@ -3,6 +3,7 @@
     --primary-blue: #5872A6;
     --light-tan: #EDE6D5;
     --dark-tan: #D9CAB2;
+    --less-dark-tan: #dfc6a9;
     --light-brown: #BFA378;
     --medium-brown: #B8854B;
     --dark-brown: #96735A;
@@ -18,20 +19,19 @@ main {
 }
 
 .left {
-    min-width: 70%;
+    min-width: 80%;
     padding-block:5vh;
     padding-inline:5vw;
 }
 
 .right {
-    min-width: 30%;
+    min-width: 20%;
     flex-direction: row;
     align-items: center;
     padding-top:5vh;
 }
 
 /* general elements */
-
 .row {
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@ main {
 }
 
 .blue {
-    color: var(--primary-blue);
+    color: var(--primary-red);
 }
 
 .schedule {
@@ -84,9 +84,10 @@ main {
 }
 
 .filters-box {
-    min-width: 200px;
-    min-height: 150px;
-    background-color: var(--dark-tan);
+    min-width: 245px;
+    min-height: 345px;
+    background-color: var(--less-dark-tan);
+    border: solid 5px var(--dark-brown);
     border-radius: 10px;
     justify-content: center;
     align-items: flex-start;
@@ -111,7 +112,7 @@ main h1 {
 }
 
 main .time {
-    color: var(--primary-red);
+    color: var(--primary-blue);
     font-weight: bold;
 }
 
@@ -122,8 +123,20 @@ main .description {
 }
 
 @media screen and (max-width: 700px) {
+    .schedule h1 {
+        min-height: 180px;
+    }
+
+    .right {
+        position: fixed;
+        right: 10vw;
+    }
+    .left{
+        min-width: 100%;
+    }
     .filters-box {
-        min-width: 150px;
+        min-width: 145px;
+        min-height: 275px;
     }
 
     .filters-box label{

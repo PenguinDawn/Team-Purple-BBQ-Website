@@ -143,105 +143,85 @@
   .cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 40px;
   }
 
-  .sponsors {
+  .card {
+    width: 30%;
     background-color: #D9CAB2;
     border-radius: 5%;
-    max-width: 400px;
+    max-width: 230px;
+    min-width: 200px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    img {
-      width: 100%;
-      height: 60%;
-      border-radius: 5%;
-      padding: 0px 0px 20px 0px;
-    }
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+
     hr {
-      height: 1px;
-      width: 80%;
-      padding: 0px 0px 0px 10px;
-      color: black;
-      border: none;
-      background-color: black;
-    }
-    .buttons {
-      font-size: 18px;
-      text-decoration: none;
-      border: none;
-      padding: 10px 30px 10px 30px;
-      a {
-        color: white;
-      }
-      a:hover {
-        color: black;
-      }
-    }
-  }
-
-  .callin {
-    background-color: #D9CAB2;
-    border-radius: 5%;
-    max-width: 400px;
-
-    img {
-      width: 95%;
-      padding: 60px 0px 20px 10px;
-      background-color: #96735A;
-      border-radius: 5%;
-    }
-    hr {
-      height: 1px;
+      height: 3px;
       width: 80%;
       color: black;
-      border: none;
       background-color: black;
-    }
-    .buttons {
-      font-size: 18px;
-      text-decoration: none;
-      border: none;
-      padding: 10px 30px 10px 30px;
-      a {
-        color: white;
-      }
-      a:hover {
-        color: black;
-      }
     }
   }
 
-  .vendors {
-    background-color: #D9CAB2;
-    border-radius: 5%;
-    max-width: 400px;
+  .imaged {
+    padding: 0px 0px 20px 0px;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+  }
 
-    img {
-      width: 100%;
-      height: 60%;
-      border-radius: 5%;
-      padding: 0px 0px 20px 0px;
-    }
-    hr {
-      height: 1px;
-      color: black;
-      border: none;
-      background-color: black;
-    }
-    .buttons {
-      font-size: 18px;
-      text-decoration: none;
-      border: none;
-      padding: 10px 30px 10px 30px;
-      a {
-        color: white;
-      }
-      a:hover {
-        color: black;
-      }
+.sponsors .imaged img{
+  height: 200px;
+}
+
+.vendors .imaged img{
+    height: 200px;
+}
+
+  .callin .imaged {
+    height: 200px;
+
+    background-color: #96735A;
+    border-radius: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+  }
+
+  .worded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 55%;
+
+    p {
+      margin-top: 0.6rem;
+      padding-left: .7rem;
+      height: 50%;
+      margin-bottom: 0.3rem;
     }
   }
+
+  .buttons {
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    margin-top: 0.5rem;
+    
+  }
+
+    
+.callin img{
+  width: 80%;
+}
 
   
   @media all and (max-width: 768px) {
