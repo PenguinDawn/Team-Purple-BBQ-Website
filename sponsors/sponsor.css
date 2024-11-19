@@ -8,70 +8,6 @@
     --dark-brown: #96735A;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: var(--light-tan);
-    font-family: "Neuton", serif;
-}
-
-h1, h2, h3 {
-    font-family: "Libre Baskerville", serif;
-}
-
-.navbar {
-    background-color: var(--dark-brown);
-    display: flex;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    justify-content: space-between;
-    width: 99%;
-    align-items: center;
-    color: white;
-}
-
-.navbar ul li {
-    font-size: 18px;
-}
-
-.navbar ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.navbar ul li a:hover {
-    color: rgb(243, 191, 191);
-    text-decoration: underline;
-}
-
-
-#piggy {
-    width: 4rem;
-}
-
-.left-side {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    width: 60%;
-}
-
-.right-side {
-    width: 20%;
-    min-width: 30%;
-}
-
-.menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    width: 100%;
-    min-width: 50%;
-}
 
 .main{
     display: grid;
@@ -343,12 +279,9 @@ h1, h2, h3 {
 @media (max-width:700px) and (min-width:300px) {
     .main {
      display: grid;
-     align-content: center;
-     justify-content: center;
      gap: 1rem;
      width: 100vw;
-     grid-template-columns:
-            repeat(1, minmax(0, 1frm));
+     grid-template-columns: repeat(1, minmax(0, 1frm));
      grid-template-areas: 
         'one'
         'two'
@@ -368,6 +301,7 @@ h1, h2, h3 {
         'sixteen'
         'seventeen'
         'eighteen'
+        'nineteen'
         'twenty'
         'twenty-one'
         'twenty-two'
