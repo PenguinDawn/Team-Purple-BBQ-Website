@@ -94,6 +94,12 @@ h1, h2, h3 {
         'twenty-three twenty-three twenty-three';
 }
 
+.main div img {
+    margin: auto;
+    display: block;
+}
+
+
 .featured-sponsor {
     grid-area: one;
     display: flex;
