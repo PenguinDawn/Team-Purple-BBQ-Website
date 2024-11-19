@@ -83,6 +83,10 @@ main {
     padding: 1em;
 }
 
+.rotated {
+    transform: rotateX(180deg);
+}
+
 .filters-box {
     min-width: 245px;
     min-height: 345px;
