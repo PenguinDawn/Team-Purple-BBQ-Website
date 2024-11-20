@@ -112,8 +112,10 @@
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    width: 80%;
-    padding: 50px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 4rem;
   }
 
   .sponsor {
@@ -123,10 +125,17 @@
   }
 
   .featured-logo {
-      width: 90%;
-      padding: 30px;
+      width: 20rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      padding-right: 30px;
       justify-items: center;
       align-items: center;
+  }
+
+  .video iframe {
+    max-width: 500px;
+    min-width: 300px;
   }
 
 
@@ -223,7 +232,7 @@
 }
 
   
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 700px) {
     h1 {
       font-size: calc(1.5rem * var(--smaller));
     }
@@ -265,6 +274,9 @@
       padding: 20px;
     }
 
+    .dates {
+      width: 100vw;
+    }
     
 
   .information {
@@ -299,7 +311,6 @@
 
   .video iframe {
     width: 90%;
-    margin-left: 10%;
   }
 
 
