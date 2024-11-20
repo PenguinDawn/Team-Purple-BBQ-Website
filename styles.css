@@ -116,6 +116,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .sponsor {
@@ -311,6 +312,7 @@
 
   .video iframe {
     width: 90%;
+    padding-right: 0;
   }
 
 
