@@ -58,7 +58,7 @@ main {
 
 .card {
     background-color: var(--dark-tan);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-collapsed {
@@ -66,7 +66,7 @@ main {
     flex-direction: row;
     align-items: center;
     background-color: var(--light-brown);
-    border-radius: 10px;
+    border-radius: 20px;
     gap: 2em;
 }
 
@@ -95,7 +95,7 @@ main {
     min-height: 260px;
     background-color: var(--less-dark-tan);
     border: solid 5px var(--dark-brown);
-    border-radius: 10px;
+    border-radius: 20px;
     justify-content: center;
     align-items: flex-start;
     align-self: flex-start;
