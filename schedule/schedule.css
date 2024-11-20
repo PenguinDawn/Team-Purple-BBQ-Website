@@ -7,6 +7,7 @@
     --light-brown: #BFA378;
     --medium-brown: #B8854B;
     --dark-brown: #96735A;
+    --cream: #ffe6d0;
 }
 
 main {
@@ -43,7 +44,7 @@ main {
 }
 
 .blue {
-    color: var(--primary-red);
+    color: var(--primary-blue);
 }
 
 .schedule {
@@ -118,7 +119,7 @@ main h1 {
 }
 
 main .time {
-    color: var(--primary-blue);
+    color: var(--cream);
     font-weight: bold;
 }
 
