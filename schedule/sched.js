@@ -18,8 +18,6 @@ headers.forEach(header => {
             open = true;
         }
         
-
-
         header.querySelector('.arrow').classList.toggle("rotated");
         header.nextElementSibling.classList.toggle("hidden");
         header.classList.toggle("active");
