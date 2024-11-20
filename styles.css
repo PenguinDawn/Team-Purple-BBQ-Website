@@ -123,6 +123,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding-left: 30px;
   }
 
   .featured-logo {
@@ -137,6 +138,7 @@
   .video iframe {
     max-width: 500px;
     min-width: 300px;
+    padding-right: 30px;
   }
 
 
