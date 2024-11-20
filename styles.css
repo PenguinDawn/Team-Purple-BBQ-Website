@@ -176,6 +176,7 @@
     align-items: center;
 
     padding-bottom: 0.5rem;
+    padding-inline: 2rem;
     overflow: hidden;
 
     hr {
@@ -184,6 +185,10 @@
       color: black;
       background-color: black;
     }
+  }
+
+  .card-description {
+    flex-grow: 1;
   }
 
   .imaged {

@@ -71,6 +71,7 @@ main {
 
 .card-collapsed .event-name {
     flex-grow: 1;
+    cursor: pointer;
 }
 
 .card-collapsed img {
@@ -81,7 +82,7 @@ main {
 }
 
 .card-content {
-    padding: 1em;
+    padding: 2rem;
 }
 
 .rotated {
