@@ -7,6 +7,7 @@
     --light-brown: #BFA378;
     --medium-brown: #B8854B;
     --dark-brown: #96735A;
+    --cream: #ffe6d0;
 }
 
 main {
@@ -43,7 +44,7 @@ main {
 }
 
 .blue {
-    color: var(--primary-red);
+    color: var(--primary-blue);
 }
 
 .schedule {
@@ -57,7 +58,7 @@ main {
 
 .card {
     background-color: var(--dark-tan);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-collapsed {
@@ -65,12 +66,13 @@ main {
     flex-direction: row;
     align-items: center;
     background-color: var(--light-brown);
-    border-radius: 10px;
+    border-radius: 20px;
     gap: 2em;
 }
 
 .card-collapsed .event-name {
     flex-grow: 1;
+    cursor: pointer;
 }
 
 .card-collapsed img {
@@ -81,7 +83,7 @@ main {
 }
 
 .card-content {
-    padding: 1em;
+    padding: 2rem;
 }
 
 .rotated {
@@ -93,7 +95,7 @@ main {
     min-height: 260px;
     background-color: var(--less-dark-tan);
     border: solid 5px var(--dark-brown);
-    border-radius: 10px;
+    border-radius: 20px;
     justify-content: center;
     align-items: flex-start;
     align-self: flex-start;
@@ -117,7 +119,7 @@ main h1 {
 }
 
 main .time {
-    color: var(--primary-blue);
+    color: var(--cream);
     font-weight: bold;
 }
 

@@ -183,11 +183,13 @@ button {
     font-family: "Libre Baskerville", serif;
     padding: 5px;
     padding-inline: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px black solid;
     box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
     -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
     -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+
+    border: 3px transparent solid;
 }
 
 
