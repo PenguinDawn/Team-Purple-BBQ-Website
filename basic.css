@@ -48,13 +48,18 @@ li {
     font-size: 21px;
 }
 
+.padded {
+    width: 99%;
+    opacity: 0;
+    height: 11.5vh;
+  }
 
 
 .navbar ul li {
     display: inline-block;
     font-size: 1.5em;
     list-style-type: none;
-    padding: 1em;
+    padding: 1rem;
     text-transform: uppercase;
   }
 
@@ -68,6 +73,8 @@ li {
     width: 100vw;
     align-items: center;
     color: white;
+    position: fixed;
+    z-index: 50;
 }
 
 .navbar ul li {
@@ -337,11 +344,21 @@ footer {
     display: none;
 }
 
+@media screen and (max-width: 990px) {
+    .padded {
+        height: 19vh;
+    }
+}
+
 
 @media screen and (max-width: 700px) {
 
     .navbar {
-        height: 20%;
+        padding-right: 1rem;
+    }
+
+    .padded {
+        height: 10vh;
     }
 
     .hamburger {
@@ -365,6 +382,8 @@ footer {
         color: white;
         text-decoration: none;
     }
+
+
 
 
     .right-side {
