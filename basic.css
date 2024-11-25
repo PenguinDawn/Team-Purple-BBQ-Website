@@ -41,11 +41,22 @@ p {
 
 h1, h2, h3 {
     font-family: "Libre Baskerville", serif;
-    font-size: 24px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 li {
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .padded {
@@ -162,10 +173,7 @@ ul li {
     padding-bottom: 0.8rem;
 }
 
-.classier {
-    margin-bottom: -0.8rem;
-    margin-top: 0.2rem;
-}
+
 
 
 
@@ -183,19 +191,21 @@ ul li {
 /* footer */
 
 
+
+
+/* BUTTON STYLING */
 button {
     background-color: var(--primary-blue);
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Libre Baskerville", serif;
     padding: 5px;
     padding-inline: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 1px black solid;
     box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
     -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
     -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
-
     border: 3px transparent solid;
 }
 
