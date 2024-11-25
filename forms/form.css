@@ -5,10 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
 }
 
 label {
     display: block;
+    font-size: 20px
 }
 
 form {
@@ -28,18 +30,18 @@ form {
 }
 
 .food-shown > div, .non-food-shown > div{
-    width: 60%;
+    width: 80%;
 }
 
 form > div {
-    width: 60%;
+    width: 80%;
 }
 
 input {
     width: 100%;
     letter-spacing: 0.4px;
     font-size: 14px;
-    padding: 3px;
+    padding: 5px;
     margin-top: 5px;
 }
 
@@ -79,7 +81,3 @@ select {
     font-weight: 600;
 }
 
-
-.hidden {
-    display: none;
-}
