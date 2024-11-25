@@ -148,7 +148,6 @@ eventy(pit_accord, pit_drop, pit_arrow, pit_upside_arrow);
 
 eventy(public_accord, public_drop, public_arrow, public_upside_arrow);
 eventy(swine_accord, swine_drop, swine_arrow, swine_upside_arrow);
-eventy(antique_accord, antique_drop, antique_arrow, antique_upside_arrow);
 eventy(gameday_accord, gameday_drop, gameday_arrow, gameday_upside_arrow);
 eventy(cornhole_accord, cornhole_drop, cornhole_arrow, cornhole_upside_arrow);
 eventy(dunking_accord, dunking_drop, dunking_arrow, dunking_upside_arrow);
@@ -158,4 +157,6 @@ eventy(pen_accord, pen_drop, pen_arrow, pen_upside_arrow);
 eventy(splash_accord, splash_drop, splash_arrow, splash_upside_arrow);
 eventy(porky_accord, porky_drop, porky_arrow, porky_upside_arrow);
 eventy(princess_accord, princess_drop, princess_arrow, princess_upside_arrow);
+
+eventy(antique_accord, antique_drop, antique_arrow, antique_upside_arrow);
 
