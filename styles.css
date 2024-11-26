@@ -13,67 +13,11 @@
 .main {
     max-width: 100%;
     padding: 0;
+    margin-bottom: -1rem;
 }
 
 
 
-.navbar ul li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-.navbar {
-  background-color: var(--dark-brown);
-  display: flex;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  justify-content: space-between;
-  width: 99%;
-  align-items: center;
-  color: white;
-}
-
-.navbar ul li {
-  font-size: 18px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.navbar ul li a:hover {
-  color: rgb(243, 191, 191);
-  text-decoration: underline;
-}
-
-
-#piggy {
-  width: 4rem;
-}
-
-.left-side {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-  width: 60%;
-}
-
-.right-side {
-  width: 50%;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  width: 100%;
-  min-width: 50%;
-}
 
  /* countdown timer */
  .container {
@@ -243,7 +187,7 @@
 
   
   @media all and (max-width: 700px) {
-    h1 {
+    /* h1 {
       font-size: calc(1.5rem * var(--smaller));
     }
     
@@ -253,7 +197,7 @@
     
     li span {
       font-size: calc(3.375rem * var(--smaller));
-    }
+    } */
     .container {
       color: black;
       margin: 0 auto;
@@ -261,24 +205,9 @@
       background-color: #D9CAB2;
     }
     
-    h1 {
-      font-weight: normal;
-      letter-spacing: .125rem;
-      text-transform: uppercase;
-    }
     
-    li {
-      display: inline-block;
-      font-size: 1rem;
-      list-style-type: none;
-      padding: .1rem;
-      text-transform: uppercase;
-    }
+ 
     
-    li span {
-      display: block;
-      font-size: 2rem;
-    }
 
     .countdown ul li {
       padding: 20px;
@@ -344,6 +273,7 @@
     min-width: 200px;
     font-size: 18px;
   } */
+
 
 
   }

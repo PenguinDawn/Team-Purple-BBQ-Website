@@ -135,6 +135,10 @@ h2 {
     font-size: 30px;
   }
 
+  .main {
+    padding-top: 2rem;
+  }
+
   .main img {
     max-width: 100%;
     padding: 0.5rem;
@@ -153,109 +157,11 @@ h2 {
     display: none;
   }
 
-  .navbar {
-      height: 20%;
-  }
 
-  .hamburger {
-      width: 3rem;
-      order: 1;
-  }
-
-  .menu {
-      order: 2;
-  }
-
-  .left-side {
-      width: 70%;
-  }
-
-  h3 {
-      font-size: 20px;
-  }
-
-  .navbar ul li a {
-      color: white;
-      text-decoration: none;
-  }
-
-
-  .right-side {
-      display: flex;
-      justify-content: flex-end;
-      width: 30%;
-      padding-right: 1rem;
-  }
-
-  #dropped-2 ul{
-      list-style: none;
-      margin-top: -3.5rem;
-      margin-bottom: -1rem;
-  }
-
-  .mobility li {
-      padding-left: .2rem;
-  }
-
-
-
-  .mobility a {
-      color: black;
-      text-decoration: none;
-  }
-
-  .mobility li:hover{
-      background-color: var(--light-brown);
-      color: rgb(121, 54, 54);
-      text-decoration: underline;
-      padding-left: .3rem;
-  }
 
   .brown {
       background-color: var(--light-brown);
   }
 
-  #dropped-2 li:hover {
-      background-color: var(--light-tan);
-      padding-left: .6rem;
-      margin-left: -0.3rem;
-  }
-
-
-
-  footer {
-      grid-template-areas:
-      'a c'
-      'b b';
-      grid-template-columns:
-      repeat(2, minmax(0, 50%));
-
-  }
-
-  .logo {
-      grid-area: a;
-  }
-
-  .contact {
-      grid-area: c;
-  }
-
-  .socials {
-      grid-area: b;
-  }
-
-  .menu li {
-      font-size: 18px;
-  }
-
-
-
-  .desktop-hidden {
-      display: block;
-  }
-
-  .mobile-hidden {
-      display: none;
-  }
 
 }

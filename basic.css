@@ -53,6 +53,10 @@ li {
     font-size: 18px;
 }
 
+
+
+/* Navbar styling */ 
+
 .padded {
     width: 99%;
     opacity: 0;
@@ -71,9 +75,7 @@ li {
 .navbar {
     background-color: var(--dark-brown);
     display: flex;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     justify-content: space-between;
     width: 100vw;
     align-items: center;
@@ -84,8 +86,9 @@ li {
 
 .navbar ul li {
     font-size: 18px;
-    width: 8rem;
-    min-width: auto;
+    width: 9rem;
+    text-align: center;;
+    /* min-width: auto; */
 }
 
 .navbar ul li a {
@@ -107,11 +110,11 @@ li {
     display: flex;
     align-items: center;
     gap: .5rem;
-    width: 60%;
+    width: auto;
 }
 
 .right-side {
-    width: 40%;
+    width: auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -129,19 +132,20 @@ li {
     cursor: pointer;
 }
 
+
 .open {
     background-color: var(--medium-brown);
 }
 
 #dropped {
     background-color: #8b6941;
-    width: 8rem;
+    width: 9rem;
     position: absolute;
     display: flex;
     flex-direction: column;
     top: 5rem;
     margin-top: -0.5rem;
-    margin-left: -1.12rem;
+    margin-left: -1rem;
     z-index: 13;
 }
 
@@ -150,8 +154,8 @@ li {
 }
 
 #dropped ul li:hover {
-    background-color: var(--light-brown);
-    
+    background-color: var(--medium-brown);
+    cursor: pointer;
 }
 
 
@@ -343,6 +347,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 
@@ -354,14 +359,8 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 990px) {
-    .padded {
-        height: 19vh;
-    }
-}
 
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
 
     .navbar {
         padding-right: 1rem;
@@ -468,7 +467,7 @@ footer {
     }
 
     .mobile-hidden {
-        display: none;
+        display: none !important;
     }
 
 }
