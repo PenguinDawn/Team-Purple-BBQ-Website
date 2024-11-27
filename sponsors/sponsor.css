@@ -257,26 +257,26 @@
     grid-area: twenty-three;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 90%;
     padding: 0px 30px 30px 30px;
-    font: 25px;
+    gap: 1rem;
 }
 
-.left-column {
-    padding: 60px;
+.sponsor-list div {
     background-color: #D9CAB2;
+    padding-inline: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     line-height: 1.7rem;
 }
 
-/* .left-column > *, .right-column > * {
-    margin-top: 2rem;
-} */
-
-.right-column {
-    padding: 60px;
-    background-color: #D9CAB2;
-    line-height: 1.7rem;
+.main {
+    padding-bottom: 1rem;
 }
+
 
 @media (max-width:700px) and (min-width:300px) {
     .main {
@@ -284,6 +284,7 @@
      gap: 1rem;
      width: 100vw;
      padding-top: 1rem;
+     padding-bottom: 2rem;
      grid-template-columns: repeat(1, minmax(0, 1frm));
      grid-template-areas: 
         'one'
@@ -519,14 +520,12 @@
         grid-area: twenty-three;
         display: flex;
         flex-direction: column;
-        width: 90%;
         padding: 0px 10px 0px 10px;
-        font: 25px;
+
     }
+
+
+
+
     
-    .left-column {
-        padding: 60px;
-        background-color: #D9CAB2;
-        line-height: 1.7rem;
-    }
 }
