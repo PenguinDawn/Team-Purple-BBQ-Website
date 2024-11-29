@@ -73,7 +73,7 @@ li {
   }
 
 .navbar {
-    background-color: var(--dark-brown);
+    background-color: #6F4525;
     display: flex;
     padding: 1rem;
     justify-content: space-between;
@@ -223,7 +223,7 @@ footer {
     justify-items: center;
     align-items: center;
     padding: 20px 0px 20px 0px;
-    background-color: #96735A;
+    background-color: #6F4525;
     grid-template-columns:
         repeat(3, minmax(0, 30%));
     grid-template-areas:
@@ -238,8 +238,7 @@ footer {
 
   footer > div> h2 {
     margin-bottom: 10px;
-    margin-top: 1rem;;
-    font-size: 22px;
+    margin-top: 1rem;
   }
 
 
