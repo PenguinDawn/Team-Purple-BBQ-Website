@@ -11,11 +11,13 @@
 @font-face {
     font-family: Libre;
     src: url(fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+    font-display: swap;
   }
 
   @font-face {
     font-family: Neuton;
     src: url(fonts/Neuton/Neuton-Regular.ttf);
+    font-display: swap;
   }
 
 
