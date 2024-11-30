@@ -377,6 +377,15 @@ footer {
 
 @media screen and (max-width: 850px) {
 
+    #piggy {
+        width: 56px;
+      }
+  
+      #hamburger {
+        width: 48px;
+      } 
+      
+
     .navbar {
         padding-right: 1rem;
     }
