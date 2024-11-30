@@ -8,6 +8,15 @@
     --dark-brown: #96735A;
 }
 
+@font-face {
+    font-family: Libre;
+    src: url(fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Neuton;
+    src: url(fonts/Neuton/Neuton-Regular.ttf);
+  }
 
 
 * {
@@ -25,7 +34,7 @@ a {
 
 body {
     background-color: var(--light-tan);
-    font-family: "Neuton", serif;
+    font-family: Neuton, serif;
     font-size: 18px;
 }
 
@@ -34,7 +43,7 @@ p {
 }
 
 h1, h2, h3 {
-    font-family: "Libre Baskerville", serif;
+    font-family: Libre, serif;
 }
 
 h1 {
