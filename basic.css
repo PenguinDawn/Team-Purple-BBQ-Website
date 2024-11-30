@@ -115,7 +115,7 @@ li {
 
 
 #piggy {
-    width: 4rem;
+    width: 72px;
 }
 
 .left-side {
@@ -352,6 +352,10 @@ footer {
 #navigation ul li a:hover {
     color: rgb(121, 54, 54);
     text-decoration: underline;
+}
+
+#hamburger {
+    width: 3.5rem;
 }
 
 #ham-close {
