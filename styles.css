@@ -10,6 +10,10 @@
     --dark-brown: #96735A;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .main {
     max-width: 100%;
     padding: 0;
@@ -94,7 +98,10 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    padding: 15px 40px 15px 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-inline: 40px;
+    width: 100%;
     h1 {
       font-size: 65px;
     }
@@ -107,11 +114,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-inline: 20px;
   }
 
   .card {
-    width: 30%;
+    width: 31%;
     background-color: #D9CAB2;
     border-radius: 5%;
     max-width: 230px;
@@ -120,9 +129,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-bottom: 0.5rem;
-    padding-inline: 2rem;
     overflow: hidden;
 
     hr {
@@ -135,26 +142,23 @@
 
   .card-description {
     flex-grow: 1;
+    padding-inline: 2rem;
   }
 
   .imaged {
     padding: 0px 0px 20px 0px;
     overflow: hidden;
-    margin-bottom: 0.2rem;
-    height: 50%;
+    margin-bottom: 0.3rem;
+    height: 170px;
   }
 
 
   .callin .imaged {
-    height: 200px;
-
     background-color: #96735A;
     border-radius: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
-
   }
 
   .worded {
@@ -165,7 +169,7 @@
 
     p {
       margin-top: 0.6rem;
-      padding-left: .7rem;
+      /* padding-left: .7rem; */
       height: 50%;
       margin-bottom: 0.3rem;
     }
@@ -182,7 +186,7 @@
 
     
 .callin img{
-  width: 80%;
+  width: 100%;
 }
 
   
@@ -214,7 +218,9 @@
     }
 
     .dates {
-      width: 100vw;
+      width: 101%;
+      margin-inline: 0;
+      padding-right: 25px;
     }
     
 
@@ -259,20 +265,55 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
+
   }
 
-  /*
 
   .card {
     display: flex;
     flex-direction: row;
     width: 400px;
-    height: auto;
+    min-width: 350px;
+    height: 180px;
     max-width: 400px;
     min-width: 200px;
     font-size: 18px;
-  } */
+  } 
+
+  .card button {
+    font-size: 16px;
+  }
+
+
+  .imaged {
+    margin-bottom: -1rem;
+    max-width: 300px;
+    min-width: 140px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .worded p {
+    margin-top: 0.3rem;
+    width: 100%;
+  }
+
+  .card-description {
+    padding-inline: 1rem;
+  }
+
+  .worded h2 {
+    margin-top: -1.5rem;
+  }
+
+  .buttons {
+    margin-top: 1.5rem;
+  }
+
+
 
 
 
