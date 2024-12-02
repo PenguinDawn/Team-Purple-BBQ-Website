@@ -487,6 +487,20 @@ footer {
         font-size: 18px;
     }
 
+
+
+
+    .desktop-hidden {
+        display: block;
+    }
+
+    .mobile-hidden {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
     button {
         font-size: 18px;
         padding: 5px;
@@ -498,16 +512,6 @@ footer {
         -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
         -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
         border: 3px transparent solid;
-    }
-
-
-
-    .desktop-hidden {
-        display: block;
-    }
-
-    .mobile-hidden {
-        display: none !important;
     }
 
 }

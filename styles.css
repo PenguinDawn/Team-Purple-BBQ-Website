@@ -90,6 +90,7 @@ body {
     max-width: 500px;
     width: 400px;
     min-width: 300px;
+    height: 250px;
     padding-right: 30px;
   }
 
@@ -211,6 +212,7 @@ body {
 
   .featured-logo {
       width: 80%;
+      min-width: 300px;
       justify-items: center;
       align-items: center;
   }
@@ -221,10 +223,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 90%;
+    min-width: 350px;
   }
 
   .video iframe {
-    width: 90%;
+    width: 80%;
+    min-width: 200px;
     padding-right: 0;
   }
 
@@ -317,6 +321,11 @@ body {
 
   .buttons {
     margin-top: 1.5rem;
+  }
+
+  .video iframe {
+    width: 100%;
+    min-width: 200px;
   }
 
 
