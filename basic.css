@@ -139,6 +139,11 @@ li {
     min-width: 50%;
 }
 
+.menu li:hover {
+    background-color: var(--medium-brown);
+    cursor: pointer;
+}
+
 #dropper:hover {
     background-color: var(--medium-brown);
     cursor: pointer;

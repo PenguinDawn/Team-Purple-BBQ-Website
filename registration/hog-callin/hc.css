@@ -31,7 +31,6 @@
 
 .hc-info p {
     text-align: center;
-    font-size: medium;
     padding: 2rem;
 }
 
@@ -40,14 +39,13 @@
 }
 
 .information p {
-  font-size: x-large;
   text-align: left;
 }
 
 .image img {
-    margin-left: 15%;
-    width: 75%;
-    border-radius: 20px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 5px;
 }
 
 .link {
@@ -69,7 +67,7 @@
     font-size: 30px;
     background-color: #5872A6;
     padding: 0.75rem 3rem;
-    border-radius: 20px;
+    border-radius: 5px;
     border: #000000 1px solid;
 }
 

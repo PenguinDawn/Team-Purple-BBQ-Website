@@ -48,10 +48,6 @@
     padding: 2px;
 }
 
-.info p {
-    font-size: x-large;
-}
-
 .register {
     height: 2rem;
     font-size: 18px;
@@ -61,7 +57,7 @@
 
 #bbq-img {
     width: 330px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: -2rem;
 }
 
@@ -90,7 +86,7 @@ a {
         flex-direction: column;
         height: 100%;
         width: 80%;
-        border-radius: 10px;
+        border-radius: 5px;
         gap: 1rem;
         padding-top: 7%;
         padding-bottom: 7%;
