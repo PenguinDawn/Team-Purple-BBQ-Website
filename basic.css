@@ -116,6 +116,12 @@ li {
 
 #piggy {
     width: 72px;
+    height: 72px;
+}
+
+#hamburger {
+    width: 72px;
+    height: 72px;
 }
 
 .left-side {
@@ -250,7 +256,7 @@ footer {
     padding: 0px 0px 10px 0px;
   }
 
-  footer > div> h2 {
+  footer > div > h2 {
     margin-bottom: 10px;
     margin-top: 1rem;
   }
@@ -266,7 +272,8 @@ footer {
     grid-area: a;
     justify-items: center;
     align-items: center;
-    width: 60%;
+    width: 248px;
+    height: 248px;
   }
   
   .socials {
