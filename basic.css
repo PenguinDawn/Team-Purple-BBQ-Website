@@ -209,7 +209,7 @@ ul li {
 button {
     background-color: var(--primary-blue);
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Libre Baskerville", serif;
     width: 150px;
     height: 50px;
@@ -494,7 +494,15 @@ footer {
         font-size: 18px;
     }
 
-
+    button {
+        padding-inline: 10px;
+        height: 40px;
+        border: 1px black solid;
+        box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+        -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+        border: 3px transparent solid;
+    }
 
 
     .desktop-hidden {
@@ -508,18 +516,7 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-    button {
-        font-size: 18px;
-        padding: 6px;
-        padding-inline: 10px;
-        border-radius: 5px;
-        height: 40px;
-        border: 1px black solid;
-        box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
-        -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
-        -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
-        border: 3px transparent solid;
-    }
+    
 
 }
 
