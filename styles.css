@@ -21,6 +21,13 @@ body {
 }
 
 
+#calling-link {
+  color: white;
+}
+#calling-link:hover {
+  color: var(--primary-blue);
+}
+
 
 
  /* countdown timer */
@@ -118,8 +125,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-inline: 20px;
   }
 
@@ -142,7 +149,10 @@ body {
       color: black;
       background-color: black;
     }
+
+  
   }
+
 
   .card-description {
     flex-grow: 1;
@@ -177,6 +187,30 @@ body {
       height: 50%;
       margin-bottom: 0.3rem;
     }
+    a {
+      background-color: var(--primary-blue);
+      color: white;
+      font-size: 18px;
+      margin: 10px;
+      font-family: "Libre Baskerville", serif;
+      width: 150px;
+      height: 40px;
+      padding-inline: 10px;
+      border-radius: 5px;
+      text-align: center;
+      border: 1px black solid;
+      box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+      -webkit-box-shadow: 2px 3px 3px 0px rgba(183, 159, 159, 0.75);
+      -moz-box-shadow: 5px 5px 5px 0px rgba(183, 159, 159, 0.75);
+      border: 3px transparent solid;
+  }
+    a:hover {
+    background-color: white;
+    color: var(--primary-blue);
+    font-weight: 600;
+    border: 3px var(--primary-blue) solid;
+    cursor: pointer;
+ }
   }
 
   .buttons {
@@ -184,8 +218,8 @@ body {
     text-decoration: none;
     border: none;
     padding: 10px 30px 10px 30px;
-    margin-top: 0.5rem;
-    
+    margin-top: 15px;
+  
   }
 
     
@@ -293,8 +327,9 @@ body {
     font-size: 18px;
   } 
 
-  .card button {
+  .card a {
     font-size: 16px;
+    margin-top: 25px;
   }
 
 
