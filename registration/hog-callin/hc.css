@@ -39,6 +39,11 @@
     width: 125%;
 }
 
+.information p {
+  font-size: xx-large;
+  text-align: left;
+}
+
 .image img {
     margin-left: 15%;
     width: 75%;

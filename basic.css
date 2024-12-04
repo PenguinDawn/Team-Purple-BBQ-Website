@@ -209,6 +209,7 @@ button {
     width: 150px;
     height: 50px;
     padding: 5px;
+    padding-bottom: 10px;
     padding-inline: 10px;
     border-radius: 5px;
     border: 1px black solid;

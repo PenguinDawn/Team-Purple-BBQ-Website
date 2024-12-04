@@ -48,6 +48,10 @@
     padding: 2px;
 }
 
+.info p {
+    font-size: xx-large;
+}
+
 .register {
     height: 2rem;
     font-size: 18px;
